@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:portfolio/theme/theme.dart';
+import 'package:portfolio/theme/colors.dart';
 
 class Ts {
   static const String _defaultFont = 'Lato';

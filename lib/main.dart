@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:portfolio/services/navigation_service/app_navigator.dart';
+import 'package:portfolio/theme/theme.dart';
+import 'package:portfolio/utils/static_values.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,13 +12,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+    return MaterialApp.router(
+      debugShowCheckedModeBanner: false,
+      theme: commonThemeData,
+      routerConfig: AppNavigator.router,
+      title: StaticValues.appName,
+      // builder: (context, child) => Overlay(
+      //   initialEntries: [OverlayEntry(builder: (context) => ResponsiveFrameworkBuilder(child: child!))],
+      // ),
+      scrollBehavior: NoThumbScrollBehavior().copyWith(scrollbars: false),
     );
   }
 }

@@ -1,10 +1,22 @@
-// Created by: Christo Pananjickal, Created at: 23-04-2024 12:33 pm
-// ignore_for_file: library_private_types_in_public_api
+// Created by: Christo Pananjickal, Created at: 24-04-2024 06:07 am
+
+import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:portfolio/theme/colors.dart';
 
-class _AppColors {
-  final Color textDefault;
-  _AppColors({required this.textDefault});
+final ThemeData commonThemeData = ThemeData(
+  scaffoldBackgroundColor: appColors.bgBlack,
+  // selectionColor: Tm.color(light.shadowBlue, dark.shadowBlue),
+  dialogTheme: const DialogTheme(surfaceTintColor: Colors.transparent),
+  scrollbarTheme: ScrollbarThemeData(thumbVisibility: MaterialStateProperty.all(false)),
+);
+
+class NoThumbScrollBehavior extends ScrollBehavior {
+  @override
+  Set<PointerDeviceKind> get dragDevices => {
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+        PointerDeviceKind.stylus,
+        PointerDeviceKind.trackpad,
+      };
 }
-
-final _AppColors appColors = _AppColors(textDefault: Colors.black);
