@@ -3,11 +3,12 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:portfolio/theme/colors.dart';
+import 'package:portfolio/theme/text_styles.dart';
 
 final ThemeData commonThemeData = ThemeData(
   scaffoldBackgroundColor: appColors.bgBlack,
-  // selectionColor: Tm.color(light.shadowBlue, dark.shadowBlue),
   dialogTheme: const DialogTheme(surfaceTintColor: Colors.transparent),
+  textTheme: TextTheme(bodyLarge: Ts.ts20W700(), bodyMedium: Ts.ts16W500(), bodySmall: Ts.ts12W400()),
   scrollbarTheme: ScrollbarThemeData(thumbVisibility: MaterialStateProperty.all(false)),
 );
 
