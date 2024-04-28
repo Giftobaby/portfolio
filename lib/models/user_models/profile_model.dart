@@ -1,6 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 28-04-2024 12:15 pm
 
-import 'package:portfolio/models/url_model.dart';
+import 'package:portfolio/models/user_models/url_model.dart';
 
 class ProfileModel {
   String name;
