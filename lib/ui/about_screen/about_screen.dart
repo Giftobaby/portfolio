@@ -8,6 +8,10 @@ class AboutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text('About screen', style: Ts.ts20W700());
+    return Container(
+      padding: EdgeInsets.all(190),
+      child:
+          Image.network('https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp'),
+    );
   }
 }
