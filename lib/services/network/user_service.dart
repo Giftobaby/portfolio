@@ -1,7 +1,7 @@
 // Created by: Christo Pananjickal, Created at: 28-04-2024 12:36 pm
 
 import 'dart:convert';
-import 'package:portfolio/models/api_response_model.dart';
+import 'package:portfolio/models/api_models/api_response_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:portfolio/models/user_models/user_model.dart';
 import 'package:portfolio/services/network/endpoints.dart';
@@ -9,7 +9,7 @@ import 'package:portfolio/services/network/endpoints.dart';
 /// [UserService] is responsible for handling all network calls related to user.
 class UserService {
   /// [getUserInfo] is responsible for fetching the user info from API.
-  static Future<ApiResponseModel> getUserInfo() async {
+  static Future<ApiResponseModel<UserModel>> getUserInfo() async {
     /// [httpResponse] is the response model of [http.get] method.
     http.Response? httpResponse;
 
@@ -43,7 +43,7 @@ class UserService {
       throw Exception();
     } catch (_) {
       /// Handle all the errors.
-      String statusCode = httpResponse?.statusCode == null ? '' : ' Status code ${httpResponse!.statusCode}';
+      String statusCode = httpResponse?.statusCode == null ? '' : ' Status code ${httpResponse!.statusCode}.';
       responseModel.message = 'Failed to get user info.$statusCode';
       responseModel.success = false;
       responseModel.data = null;
