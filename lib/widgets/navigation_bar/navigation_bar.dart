@@ -7,7 +7,7 @@ import 'package:portfolio/services/navigation_service/app_route_model.dart';
 import 'package:portfolio/services/navigation_service/routes.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
-import 'package:portfolio/widgets/custom_gesture_detector/hover_gd.dart';
+import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart';
 
 class TopNavigationBar extends StatefulWidget {
   const TopNavigationBar({super.key});
@@ -32,18 +32,12 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
           _SideMenuItem(route: AppRoutes.projects, onTap: _navigate),
           _SideMenuItem(route: AppRoutes.contact, onTap: _navigate),
           Padding(
-            padding: const EdgeInsets.only(left: 56, right: 16),
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
-              decoration: BoxDecoration(
-                  borderRadius: const BorderRadius.all(Radius.circular(6)),
-                  border: Border.all(color: appColors.textBlue)),
-              child: HoverGD(
-                onTap: () => print('resume tapped'),
-                child: Text('Resume', style: Ts.ts23W600(color: appColors.text1)),
-              ),
+            padding: const EdgeInsets.only(left: 46),
+            child: _SideMenuItem(
+              route: AppRoute(name: 'Resume', path: '', goBuilder: (a, b) => const SizedBox()),
+              onTap: (a) => print('open resume'),
             ),
-          )
+          ),
         ],
       ),
     );
@@ -64,15 +58,27 @@ class _SideMenuItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 16),
-      child: HoverGD(
-        onTap: () => onTap(route),
-        child: Text(
-          route.name.toFirstLetterUpperCase(),
-          style: Ts.ts23W600(
-            color: AppNavigator.selectedRoute == route ? appColors.textBlue : appColors.text1,
-          ),
-        ),
+      child: HoverButton(
+        onTapUp: () => onTap(route),
+        builder: (context, state) {
+          return MouseRegion(
+            cursor: state.isHovering ? SystemMouseCursors.click : MouseCursor.defer,
+            child: Text(
+              route.name.toFirstLetterUpperCase(),
+              style: Ts.ts23W600(
+                color: _getColor(AppNavigator.selectedRoute == route, state.isHovering),
+              ),
+            ),
+          );
+        },
       ),
     );
+  }
+
+  Color _getColor(bool highlightRoute, bool hovering) {
+    if (highlightRoute && hovering) return appColors.textBlueHover;
+    if (highlightRoute) return appColors.textBlue;
+    if (hovering) return appColors.text1Hover;
+    return appColors.text1;
   }
 }
