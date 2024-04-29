@@ -7,6 +7,24 @@ class ProfileScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text('Profile');
+    return Column(
+      children: [],
+    );
+  }
+}
+
+class ProfileRowWidget extends StatelessWidget {
+  final String nameKey;
+  final String value;
+  const ProfileRowWidget({super.key, required this.nameKey, required this.value});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Text(nameKey),
+        Text(value),
+      ],
+    );
   }
 }

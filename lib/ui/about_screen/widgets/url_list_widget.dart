@@ -1,10 +1,10 @@
 // Created by: Christo Pananjickal, Created at: 29-04-2024 02:14 pm
 
 import 'package:flutter/material.dart';
-import 'package:portfolio/extensions/context_extensions.dart';
 import 'package:portfolio/models/user_models/url_model.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class UrlListWidget extends StatelessWidget {
   final List<UrlModel> urls;
@@ -12,13 +12,16 @@ class UrlListWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 40,
-      // color: Colors.yellow,
       child: ListView.builder(
         itemCount: urls.length,
         scrollDirection: Axis.horizontal,
-        itemBuilder: (context, index) => _ListTile(url: urls[index]),
+        shrinkWrap: true,
+        itemBuilder: (context, index) => Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12),
+          child: _ListTile(url: urls[index]),
+        ),
       ),
     );
   }
@@ -39,17 +42,24 @@ class _ListTile extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 4),
-              child: Image.network(
-                url.icon,
-                errorBuilder: (context, e, s) => Icon(Icons.image, color: appColors.bgBlack2),
+              child: ClipOval(
+                child: Image.network(
+                  url.icon,
+                  height: 26,
+                  width: 26,
+                  fit: BoxFit.contain,
+                  errorBuilder: (context, e, s) {
+                    return Icon(Icons.image, color: appColors.bgBlack2);
+                  },
+                ),
               ),
             ),
-            Text(url.label, style: Ts.ts16W600()),
+            Text(url.label, style: Ts.ts16W600(color: appColors.textBlue)),
           ],
         ),
       ),
     );
   }
 
-  Future<void> _openUrl() async {}
+  Future<void> _openUrl() async => await launchUrl(Uri.parse(url.label));
 }
