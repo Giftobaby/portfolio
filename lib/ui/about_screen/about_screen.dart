@@ -32,7 +32,6 @@ class AboutScreen extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
-                      crossAxisAlignment: CrossAxisAlignment.end,
                       children: [
                         UserImageWidget(userModel: provider.userModel!),
                         const SizedBox(width: 25),
