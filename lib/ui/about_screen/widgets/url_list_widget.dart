@@ -61,5 +61,5 @@ class _ListTile extends StatelessWidget {
     );
   }
 
-  Future<void> _openUrl() async => await launchUrl(Uri.parse(url.label));
+  Future<void> _openUrl() async => await launchUrl(Uri.parse(url.url));
 }
