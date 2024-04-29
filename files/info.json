@@ -2,17 +2,7 @@
   "about": {
     "greeting_message": "Hii there,",
     "greeting_intro": "I am",
-    "about_description": "I am a software engineer, specializing in cross-platform mobile applications. From sleek UI designs to robust back-end integrations, I specialize in crafting captivating mobile experiences. Let's elevate your software to new heights."
-  },
-  "profile": {
-    "name": "Christo PB",
-    "short_name": "Christo",
-    "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
-    "dob": "1999-01-30T00:00:00.000",
-    "email_id": "christopananjickal01@gmail.com",
-    "phone": "+1 (226) 201-0774",
-    "address": "215 Connaught St, Kitchener, Canada.",
-    "postal_code": "ON N2C 1B2",
+    "about_description": "I am a software engineer, specializing in cross-platform mobile applications. From sleek UI designs to robust back-end integrations, I specialize in crafting captivating mobile experiences. Let's elevate your software to new heights.",
     "urls": [
       {
         "label": "Github",
@@ -25,6 +15,16 @@
         "url": "https://www.linkedin.com/in/christo-pananjickal-40993b14a"
       }
     ]
+  },
+  "profile": {
+    "name": "Christo PB",
+    "short_name": "Christo",
+    "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
+    "dob": "1999-01-30T00:00:00.000",
+    "email_id": "christopananjickal01@gmail.com",
+    "phone": "+1 (226) 201-0774",
+    "address": "215 Connaught St, Kitchener, Canada.",
+    "postal_code": "ON N2C 1B2"
   },
   "projects": [
     {
