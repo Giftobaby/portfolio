@@ -8,14 +8,14 @@ import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/utils/globals.dart';
 import 'package:provider/provider.dart';
 
-class SplashAnimation extends StatefulWidget {
-  const SplashAnimation({super.key});
+class SplashScreen extends StatefulWidget {
+  const SplashScreen({super.key});
 
   @override
-  State<SplashAnimation> createState() => _SplashAnimationState();
+  State<SplashScreen> createState() => _SplashScreenState();
 }
 
-class _SplashAnimationState extends State<SplashAnimation> {
+class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     final provider = context.read<UserInfoProvider>();

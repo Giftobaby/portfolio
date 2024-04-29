@@ -5,14 +5,14 @@ import 'package:portfolio/ui/base_screens/base_window_screen.dart';
 import 'package:portfolio/ui/base_screens/error_screen.dart';
 import 'package:portfolio/ui/base_screens/home_screen.dart';
 import 'package:portfolio/ui/contact_screen/contact_screen.dart';
-import 'package:portfolio/ui/home/home_screen.dart';
-import 'package:portfolio/ui/projets/projects_screen.dart';
-import 'package:portfolio/ui/splash/splash_screen.dart';
+import 'package:portfolio/ui/profile_screen/profile_screen.dart';
+import 'package:portfolio/ui/projects_screen/projects_screen.dart';
+import 'package:portfolio/ui/splash_screen/splash_screen.dart';
 import 'app_route_model.dart';
 
 class AppRoutes {
   static final AppRoute splash =
-      AppRoute(path: '/splash', name: 'splash', goBuilder: (c, s) => const SplashAnimation());
+      AppRoute(path: '/splash', name: 'splash', goBuilder: (c, s) => const SplashScreen());
 
   static final AppRoute baseWindow = AppRoute(
     shellBuilder: (c, s, d) => BaseWindowScreen(child: d),
@@ -43,7 +43,7 @@ class AppRoutes {
     path: '/profile',
     name: 'profile',
     // iconPath: Assets.icons.dashboard,
-    goBuilder: (c, s) => const HomeScreen(),
+    goBuilder: (c, s) => const ProfileScreen(),
   );
 
   static final AppRoute projects = AppRoute(
