@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:portfolio/providers/provider_register.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:portfolio/services/navigation_service/app_navigator.dart';
 import 'package:portfolio/theme/theme.dart';
 import 'package:portfolio/utils/static_values.dart';
