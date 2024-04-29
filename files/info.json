@@ -1,9 +1,11 @@
 {
   "about": {
+    "greeting_message": "Hii there, I am",
     "about_description": "I am a software engineer, specializing in cross-platform mobile applications. From sleek UI designs to robust back-end integrations, I specialize in crafting captivating mobile experiences. Let's elevate your software to new heights."
   },
   "profile": {
     "name": "Christo PB",
+    "short_name": "Christo",
     "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
     "dob": "1999-01-30T00:00:00.000",
     "email_id": "christopananjickal01@gmail.com",
