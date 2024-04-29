@@ -6,12 +6,12 @@
     "urls": [
       {
         "label": "Github",
-        "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git_hub.svg",
+        "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git_hub.webp",
         "url": "https://github.com/CHRISTOPANANJICKAL/"
       },
       {
         "label": "Linkedin",
-        "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/linkedin.svg",
+        "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/linkedin.webp",
         "url": "https://www.linkedin.com/in/christo-pananjickal-40993b14a"
       }
     ]
