@@ -48,9 +48,7 @@ class _ListTile extends StatelessWidget {
                   height: 26,
                   width: 26,
                   fit: BoxFit.contain,
-                  errorBuilder: (context, e, s) {
-                    return Icon(Icons.image, color: appColors.bgBlack2);
-                  },
+                  errorBuilder: (context, e, s) => Icon(Icons.image, color: appColors.bgBlack2),
                 ),
               ),
             ),
