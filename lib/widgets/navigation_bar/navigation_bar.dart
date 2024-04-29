@@ -1,13 +1,18 @@
 // Created by: Christo Pananjickal, Created at: 24-04-2024 01:05 pm
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
+import 'package:portfolio/extensions/context_extensions.dart';
 import 'package:portfolio/extensions/string_extensions.dart';
+import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/services/navigation_service/app_navigator.dart';
 import 'package:portfolio/services/navigation_service/app_route_model.dart';
 import 'package:portfolio/services/navigation_service/routes.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart';
+import 'package:provider/provider.dart';
 
 class TopNavigationBar extends StatefulWidget {
   const TopNavigationBar({super.key});
@@ -25,7 +30,19 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Row(
         children: [
-          Text('< Christo PB >', style: Ts.ts26W600(color: appColors.text1)),
+          SizedBox(
+            width: context.percentWidth * 25,
+            child: Consumer<UserInfoProvider>(
+              builder: (context, provider, child) {
+                return Text(
+                  provider.userModel == null ? '' : '< ${provider.userModel?.profile.name} >',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: Ts.ts26W600(color: appColors.text1),
+                );
+              },
+            ),
+          ),
           const Spacer(),
           _SideMenuItem(route: AppRoutes.about, onTap: _navigate),
           _SideMenuItem(route: AppRoutes.profile, onTap: _navigate),
