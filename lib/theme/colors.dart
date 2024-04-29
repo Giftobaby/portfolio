@@ -11,6 +11,7 @@ class _AppColors {
   final Color bgBlack;
   final Color bgBlack2;
   final Color bgWhite2;
+  final Color errorRed;
   final Color defaultHoverColor;
   final Color defaultHoverClickColor;
   _AppColors({
@@ -22,6 +23,7 @@ class _AppColors {
     required this.bgBlack,
     required this.bgWhite2,
     required this.bgBlack2,
+    required this.errorRed,
     required this.defaultHoverColor,
     required this.defaultHoverClickColor,
   });
@@ -36,6 +38,7 @@ final _AppColors appColors = _AppColors(
   bgBlack: const Color.fromRGBO(21, 21, 27, 1),
   bgBlack2: const Color.fromRGBO(37, 37, 54, 1),
   bgWhite2: const Color.fromRGBO(241, 238, 253, 1),
+  errorRed: const Color.fromRGBO(244, 74, 74, 1),
   defaultHoverColor: const Color.fromRGBO(37, 37, 54, 0.5),
   defaultHoverClickColor: const Color.fromRGBO(37, 37, 54, 0.5),
 );
