@@ -4,6 +4,7 @@ import 'package:portfolio/models/user_models/url_model.dart';
 
 class ProfileModel {
   String name;
+  String profileImage;
   DateTime dob;
   String emailId;
   String phone;
@@ -14,6 +15,7 @@ class ProfileModel {
 
   ProfileModel({
     required this.name,
+    required this.profileImage,
     required this.dob,
     required this.emailId,
     required this.phone,
@@ -25,6 +27,7 @@ class ProfileModel {
 
   factory ProfileModel.fromJson(Map<String, dynamic> json) => ProfileModel(
         name: json['name'] ?? '',
+        profileImage: json['profile_image'] ?? '',
         dob: DateTime.tryParse(json['dob']) ?? DateTime(1999),
         emailId: json['email_id'] ?? '',
         phone: json['phone'] ?? '',
