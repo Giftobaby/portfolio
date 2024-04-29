@@ -1,7 +1,5 @@
 // Created by: Christo Pananjickal, Created at: 28-04-2024 12:15 pm
 
-import 'package:portfolio/models/user_models/url_model.dart';
-
 class ProfileModel {
   String name;
   String shortName;
@@ -11,8 +9,6 @@ class ProfileModel {
   String phone;
   String address;
   String postalCode;
-  UrlModel github;
-  UrlModel linkedin;
 
   ProfileModel({
     required this.name,
@@ -23,8 +19,6 @@ class ProfileModel {
     required this.phone,
     required this.address,
     required this.postalCode,
-    required this.github,
-    required this.linkedin,
   });
 
   factory ProfileModel.fromJson(Map<String, dynamic> json) => ProfileModel(
@@ -36,7 +30,5 @@ class ProfileModel {
         phone: json['phone'] ?? '',
         address: json['address'] ?? '',
         postalCode: json['postal_code'] ?? '',
-        github: UrlModel.fromJson(json['github'] ?? {}),
-        linkedin: UrlModel.fromJson(json['linkedin'] ?? {}),
       );
 }
