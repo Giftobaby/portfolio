@@ -466,4 +466,22 @@ class Ts {
       color: color ?? appColors.textDefault,
     );
   }
+
+  static TextStyle ts60W700({Color? color, String? fontFamily}) {
+    return GoogleFonts.getFont(
+      fontFamily ?? _defaultFont,
+      fontSize: 60,
+      fontWeight: FontWeight.w700,
+      color: color ?? appColors.textDefault,
+    );
+  }
+
+  static TextStyle ts100W700({Color? color, String? fontFamily}) {
+    return GoogleFonts.getFont(
+      fontFamily ?? _defaultFont,
+      fontSize: 100,
+      fontWeight: FontWeight.w700,
+      color: color ?? appColors.textDefault,
+    );
+  }
 }
