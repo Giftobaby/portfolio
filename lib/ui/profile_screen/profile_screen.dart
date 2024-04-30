@@ -36,16 +36,20 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Consumer<UserInfoProvider>(
       builder: (context, provider, child) {
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ProfileRowWidget(nameKey: 'Name', value: provider.userModel!.profile.name),
-            ProfileRowWidget(
-              nameKey: 'Date of Birth',
-              value: DateFormat('dd-MMM-yyyy').format(provider.userModel!.profile.dob),
-            ),
-            ProfileRowWidget(nameKey: 'Duration since birth', value: _getAgeString(provider.userModel!.profile.dob)),
-          ],
+        return Padding(
+          padding: const EdgeInsets.all(12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              ProfileRowWidget(nameKey: 'Name', value: provider.userModel!.profile.name),
+              ProfileRowWidget(
+                nameKey: 'Date of Birth',
+                value: DateFormat('dd-MMM-yyyy').format(provider.userModel!.profile.dob),
+              ),
+              ProfileRowWidget(nameKey: 'Duration since birth', value: _getAgeString(provider.userModel!.profile.dob)),
+              ProfileRowWidget(nameKey: 'What am I', value: provider.userModel!.profile.whatAmI),
+            ],
+          ),
         );
       },
     );
@@ -74,7 +78,7 @@ class ProfileRowWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 12),
+      padding: const EdgeInsets.symmetric(vertical: 8),
       child: IntrinsicWidth(
         child: Row(
           children: [
