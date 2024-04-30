@@ -42,7 +42,7 @@
       {
         "role_or_degree": "Software Engineer",
         "institution_name": "ATeam Soft Solutions, Trivandrum, Kerala, India",
-        "description": "Developing high quality mobile apps",
+        "description": "Developed high quality mobile apps",
         "from_date": "2021-11-01T00:00:00.000",
         "to_date": "2023-10-30T00:00:00.00",
         "role_type": "job"
@@ -58,17 +58,48 @@
       {
         "role_or_degree":"Higher Secondary",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned intermediate maths, science, and computer programming",
-        "from_date": "2015-03-13T00:00:00.000",
+        "description": "Learned intermediate level maths, science, and computer programming",
+        "from_date": "2015-06-13T00:00:00.000",
         "to_date": "2017-05-15T00:00:00.00",
         "role_type": "studies"
       },
       {
         "role_or_degree":"High School",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned basic maths, science, history and other fundamental education",
-        "from_date": "2012-03-07T00:00:00.000",
+        "description": "Learned basic maths, science, history and gained fundamental education",
+        "from_date": "2012-05-07T00:00:00.000",
         "to_date": "2015-03-24T00:00:00.00",
+        "role_type": "studies"
+      },
+      {
+        "role_or_degree":"Upper Primary",
+        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
+        "description": "Learned basic maths, environment science, and gained general knowledge",
+        "from_date": "2009-05-07T00:00:00.000",
+        "to_date": "2012-03-07T00:00:00.000",
+        "role_type": "studies"
+      },
+      {
+        "role_or_degree":"Lower Primary",
+        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
+        "description": "Learned numbers and alphabets and stories",
+        "from_date": "2004-05-07T00:00:00.000",
+        "to_date": "2009-03-07T00:00:00.000",
+        "role_type": "studies"
+      },{
+        "role_or_degree":"Kindergarten",
+        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
+        "description": "Ruled the crayon kingdom, slayed dragons in storybooks, and fought of my \"Dubber\"",
+        "from_date": "2002-05-07T00:00:00.000",
+        "to_date": "2004-03-07T00:00:00.000",
+        "role_type": "studies"
+      },
+      {
+        "role_or_degree":"I was a tiny tot ;)",
+        "institution_name": "My Little Sweet Home",
+        "description": "I played with my parents, giggling and cooing in the most adorable way!",
+        "from_date": "1999-05-07T00:00:00.000",
+        "to_date": "2002-03-07T00:00:00.000",
         "role_type": "studies"
       }
     ]
