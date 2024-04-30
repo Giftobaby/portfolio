@@ -8,7 +8,7 @@ class ProfileModel {
   String profileImage;
   String whatAmI;
   DateTime dob;
-  List<TimelineModel> education;
+  List<TimelineModel> timeline;
 
   ProfileModel({
     required this.name,
@@ -16,7 +16,7 @@ class ProfileModel {
     required this.profileImage,
     required this.dob,
     required this.whatAmI,
-    required this.education,
+    required this.timeline,
   });
 
   factory ProfileModel.fromJson(Map<String, dynamic> json) => ProfileModel(
@@ -25,6 +25,6 @@ class ProfileModel {
         profileImage: json['profile_image'] ?? '',
         whatAmI: json['what_am_i'] ?? '',
         dob: DateTime.tryParse(json['dob']) ?? DateTime.now(),
-        education: List<TimelineModel>.from((json['timeline'] ?? []).map((e) => TimelineModel.fromJson(e))),
+        timeline: List<TimelineModel>.from((json['timeline'] ?? []).map((e) => TimelineModel.fromJson(e))),
       );
 }
