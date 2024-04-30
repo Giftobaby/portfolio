@@ -49,12 +49,37 @@
         "role_type": "job"
       },
       {
+        "role_or_degree": "Software Developer",
+        "institution_name": "Freelance",
+        "description": "Developed small software for various clients in Flutter and Python",
+        "from_date": "2019-11-06T00:00:00.000",
+        "to_date": "",
+        "role_type": "job"
+      },
+      {
         "role_or_degree": "Bachelor of Technology (B.Tech)",
         "institution_name": "Sahrdaya College of Engineering & Technology, Thrissur, Kerala, India",
         "description": "Electronics and Communication Engineering",
         "from_date": "2017-08-01T00:00:00.000",
         "to_date": "2021-04-15T00:00:00.00",
         "role_type": "studies"
+      },
+
+      {
+        "role_or_degree": "Music Programmer and Sound Engineer",
+        "institution_name": "Freelance - KKC Music Workshop, Chalakudy",
+        "description": "Music orchestration, mixing and mastering",
+        "from_date": "2018-11-06T00:00:00.000",
+        "to_date": "",
+        "role_type": "job"
+      },
+      {
+        "role_or_degree": "Asst. Sound Engineer & Music Programmer",
+        "institution_name": "Tunes Audio Studio, Chalakudy",
+        "description": "Music recording, mixing, mastering and orchestration",
+        "from_date": "2018-11-06T00:00:00.000",
+        "to_date": "2019-2-17T00:00:00.00",
+        "role_type": "job"
       },
       {
         "role_or_degree":"Higher Secondary",
