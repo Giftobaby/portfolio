@@ -25,6 +25,6 @@ class ProfileModel {
         profileImage: json['profile_image'] ?? '',
         whatAmI: json['what_am_i'] ?? '',
         dob: DateTime.tryParse(json['dob']) ?? DateTime.now(),
-        education: List<TimelineModel>.from((json['education'] ?? []).map((e) => TimelineModel.fromJson(e))),
+        education: List<TimelineModel>.from((json['timeline'] ?? []).map((e) => TimelineModel.fromJson(e))),
       );
 }

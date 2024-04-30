@@ -22,7 +22,7 @@
     "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
     "dob": "1999-01-30T11:34:42.000",
     "what_am_i": "As a software engineer, I have a deep passion for coding and enjoy experimenting with different programming techniques. Additionally, I have a keen interest in electronics, often engaging in the development and programming of embedded systems and circuits as hobby projects. Music holds a special place in my heart, and I am an avid keyboard player who also dabbles in music mixing, mastering, and production. My love for science is immense, and whenever I come across something related to it, I am always eager to learn more. Since childhood, I have been naturally curious and inquisitive about the world around me.",
-    "education": [
+    "timeline": [
       {
         "role_or_degree": "Graduate",
         "institution_name": "Conestoga College, Kitchner, Ontario, Canada",
