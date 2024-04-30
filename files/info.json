@@ -58,7 +58,7 @@
       {
         "role_or_degree":"Higher Secondary",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned intermediate level maths, science, and computer programming",
+        "description": "Learned advanced level maths, science, and computer programming",
         "from_date": "2015-06-13T00:00:00.000",
         "to_date": "2017-05-15T00:00:00.00",
         "role_type": "studies"
@@ -66,7 +66,7 @@
       {
         "role_or_degree":"High School",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned basic maths, science, history and gained fundamental education",
+        "description": "Learned maths, science, history and gained fundamental education",
         "from_date": "2012-05-07T00:00:00.000",
         "to_date": "2015-03-24T00:00:00.00",
         "role_type": "studies"
@@ -82,14 +82,14 @@
       {
         "role_or_degree":"Lower Primary",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned numbers and alphabets and stories",
+        "description": "Learned numbers, alphabets and stories",
         "from_date": "2004-05-07T00:00:00.000",
         "to_date": "2009-03-07T00:00:00.000",
         "role_type": "studies"
       },{
         "role_or_degree":"Kindergarten",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Ruled the crayon kingdom, slayed dragons in storybooks, and fought of my \"Dubber\"",
+        "description": "Ruled the crayon kingdom, slayed dragons in storybooks, and fought for my \"Dubber\"",
         "from_date": "2002-05-07T00:00:00.000",
         "to_date": "2004-03-07T00:00:00.000",
         "role_type": "studies"
