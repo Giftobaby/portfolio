@@ -20,11 +20,58 @@
     "name": "Christo PB",
     "short_name": "Christo",
     "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
-    "dob": "1999-01-30T00:00:00.000",
-    "email_id": "christopananjickal01@gmail.com",
-    "phone": "+1 (226) 201-0774",
-    "address": "215 Connaught St, Kitchener, Canada.",
-    "postal_code": "ON N2C 1B2"
+    "dob": "1999-01-30T11:34:42.000",
+    "what_am_i": "As a software engineer, I have a deep passion for coding and enjoy experimenting with different programming techniques. Additionally, I have a keen interest in electronics, often engaging in the development and programming of embedded systems and circuits as hobby projects. Music holds a special place in my heart, and I am an avid keyboard player who also dabbles in music mixing, mastering, and production. My love for science is immense, and whenever I come across something related to it, I am always eager to learn more. Since childhood, I have been naturally curious and inquisitive about the world around me.",
+    "education": [
+      {
+        "role_or_degree": "Graduate",
+        "institution_name": "Conestoga College, Kitchner, Ontario, Canada",
+        "description": "Mastering Process Quality Engineering",
+        "from_date": "2024-05-07T00:00:00.000",
+        "to_date": "",
+        "role_type": "studies"
+      },
+      {
+        "role_or_degree": "Co Founder, Flutter Team Lead & Lead Developer",
+        "institution_name": "Techaso, Ernakulam, Kerala, India",
+        "description": "Design scalable systems and mentoring Flutter developers",
+        "from_date": "2022-02-08T00:00:00.000",
+        "to_date": "",
+        "role_type": "job"
+      },
+      {
+        "role_or_degree": "Software Engineer",
+        "institution_name": "ATeam Soft Solutions, Trivandrum, Kerala, India",
+        "description": "Developing high quality mobile apps",
+        "from_date": "2021-11-01T00:00:00.000",
+        "to_date": "2023-10-30T00:00:00.00",
+        "role_type": "job"
+      },
+      {
+        "role_or_degree": "Bachelor of Technology",
+        "institution_name": "Sahrdaya College of Engineering & Technology, Thrissur, Kerala, India",
+        "description": "Electronics and Communication Engineering",
+        "from_date": "2017-08-01T00:00:00.000",
+        "to_date": "2021-04-15T00:00:00.00",
+        "role_type": "studies"
+      },
+      {
+        "role_or_degree":"Higher Secondary",
+        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
+        "description": "Learned intermediate maths, science, and computer programming",
+        "from_date": "2015-03-13T00:00:00.000",
+        "to_date": "2017-05-15T00:00:00.00",
+        "role_type": "studies"
+      },
+      {
+        "role_or_degree":"High School",
+        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
+        "description": "Learned basic maths, science, history and other fundamental education",
+        "from_date": "2012-03-07T00:00:00.000",
+        "to_date": "2015-03-24T00:00:00.00",
+        "role_type": "studies"
+      }
+    ]
   },
   "projects": [
     {
@@ -51,5 +98,11 @@
         }
       ]
     }
-  ]
+  ],
+  "contact": {
+    "email_id": "christopananjickal01@gmail.com",
+    "phone": "+1 (226) 201-0774",
+    "address": "215 Connaught St, Kitchener, Canada.",
+    "postal_code": "ON N2C 1B2"
+  }
 }
