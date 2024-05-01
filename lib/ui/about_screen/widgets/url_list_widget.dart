@@ -1,6 +1,7 @@
 // Created by: Christo Pananjickal, Created at: 29-04-2024 02:14 pm
 
 import 'package:flutter/material.dart';
+import 'package:portfolio/extensions/string_extensions.dart';
 import 'package:portfolio/models/user_models/url_model.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
@@ -42,7 +43,8 @@ class _ListTile extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 4),
-              child: ClipOval(
+              child: ClipRRect(
+                borderRadius: const BorderRadius.all(Radius.circular(4)),
                 child: Image.network(
                   url.icon,
                   height: 26,
@@ -52,7 +54,8 @@ class _ListTile extends StatelessWidget {
                 ),
               ),
             ),
-            Text(url.label, style: Ts.ts16W600(color: appColors.textBlue)),
+            const SizedBox(width: 4),
+            Text(url.label.toFirstLetterUpperCase(), style: Ts.ts16W600(color: appColors.textBlue)),
           ],
         ),
       ),
