@@ -1,13 +1,10 @@
 // Created by: Christo Pananjickal, Created at: 30-04-2024 11:50 am
 
-import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:portfolio/models/user_models/education_model.dart';
-import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
-import 'package:provider/provider.dart';
 
 class TimeLineWidget extends StatelessWidget {
   final List<TimelineModel> timelines;
@@ -47,17 +44,11 @@ class _TimeLine extends StatelessWidget {
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 3),
                     child: Image.network(
-                      (context
-                              .read<UserInfoProvider>()
-                              .userModel!
-                              .additionalUrls
-                              .firstWhereOrNull((e) => e.label == timeline.roleType.label)
-                              ?.url) ??
-                          '',
+                      timeline.iconUrl,
                       height: 18,
                       width: 18,
                       color: appColors.text1,
-                      errorBuilder: (context, a, s) => Icon(Icons.image, color: appColors.text1, size: 12),
+                      errorBuilder: (context, a, s) => Icon(Icons.image, color: appColors.text1, size: 20),
                     ),
                   ),
                   Flexible(child: _Line(avoidMinHeight: true, transparent: isLast)),
