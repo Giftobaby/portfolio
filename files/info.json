@@ -134,9 +134,9 @@
     {
       "name": "Fast Cached Network Image",
       "role": "Author and lead developer",
-      "description": "An opensource Flutter package to cache network images fastly",
-      "from_date": "1999-01-30T00:00:00.000",
-      "to_date": "1999-01-30T00:00:00.000",
+      "description": "An opensource Flutter package to cache network images fastly, so that an image will be downloaded only once, instead of downloading them again and again. This approach can improve the UX, since the user feels the app is super fast. Unlike the popular CachedNetworkImage(CNI) package, FastCachedNetworkImage offers methods to clear cache after a particular time period, remove a specific image from cache and much more.",
+      "from_date": "2022-09-08T00:00:00.000",
+      "to_date": "",
       "technologies": [
         {
           "label": "Flutter",
@@ -148,25 +148,147 @@
         },
         {
           "label": "Git",
-          "icon": ""
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
         },
         {
           "label": "Open source",
-          "icon": ""
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/open_source.png"
+        },
+        {
+          "label": "GitHub",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
         },
         {
           "label": "Pub.dev",
-          "icon": ""
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
         }
       ],
       "urls": [
         {
           "label": "source code",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
           "url": "https://github.com/CHRISTOPANANJICKAL/fast_cached_network_image"
         },
         {
           "label": "package on pub.dev",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png",
           "url": "https://pub.dev/packages/fast_cached_network_image"
+        }
+      ]
+    },
+    {
+      "name": "Fast Validator",
+      "role": "Author and lead developer",
+      "description": "An opensource Flutter package to do any kind of validation fastly. Inspired from Django model validations - python. Includes many built-in validators for commonly used validations. Users can even create custom validators and can club them with the built-in validators.",
+      "from_date": "2023-12-11T00:00:00.000",
+      "to_date": "",
+      "technologies": [
+        {
+          "label": "Flutter",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+        },
+        {
+          "label": "Dart",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        },
+        {
+          "label": "Git",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+        },
+        {
+          "label": "Open source",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/open_source.png"
+        },
+        {
+          "label": "GitHub",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+        },
+        {
+          "label": "Pub.dev",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        }
+      ],
+      "urls": [
+        {
+          "label": "source code",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
+          "url": "https://github.com/CHRISTOPANANJICKAL/fast_validator"
+        },
+        {
+          "label": "package on pub.dev",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png",
+          "url": "https://pub.dev/packages/fast_validator"
+        }
+      ]
+    },
+    {
+      "name": "Techaso - Biller",
+      "role": "Flutter team lead and lead developer",
+      "description": "An ERP solution containing all basic billing features, oauth2.0, inventory, employee, customer management, ecommerce and much more.",
+      "from_date": "2023-04-05T00:00:00.000",
+      "to_date": "",
+      "technologies": [
+        {
+          "label": "Flutter",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+        },
+        {
+          "label": "Dart",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        },
+        {
+          "label": "Git",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+        },
+        {
+          "label": "GitHub",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+        },
+        {
+          "label": "Python",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/python.png"
+        },{
+          "label": "Django",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/django.png"
+        },{
+          "label": "Jira",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/jira.png"
+        },{
+          "label": "Bitbucket",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/bitbucket.png"
+        },{
+          "label": "Slack",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/slack.png"
+        },{
+          "label": "Docker",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/docker.png"
+        },{
+          "label": "Nginx",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/nginx.png"
+        },{
+          "label": "Amazon Web Services(AWS)",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/aws.png"
+        },{
+          "label": "Firebase",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/firebase.png"
+        },{
+          "label": "Postman",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/postman.png"
+        },{
+          "label": "Swagger",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/swagger.png"
+        }
+      ],
+      "urls": [
+        {
+          "label": "source code",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
+          "url": "https://github.com/CHRISTOPANANJICKAL/fast_validator"
+        },
+        {
+          "label": "package on pub.dev",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png",
+          "url": "https://pub.dev/packages/fast_validator"
         }
       ]
     }
