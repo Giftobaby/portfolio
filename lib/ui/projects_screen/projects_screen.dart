@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:portfolio/providers/user_info_provider.dart';
+import 'package:portfolio/ui/projects_screen/widgets/project_widget.dart';
 import 'package:provider/provider.dart';
 
 class ProjectsScreen extends StatelessWidget {
@@ -11,7 +12,11 @@ class ProjectsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<UserInfoProvider>(
       builder: (context, provider, child) {
-        return Image.network(provider.userModel!.projects.first.technologies.first.icon);
+        return GridView.builder(
+          itemCount: provider.userModel!.projects.length,
+          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+          itemBuilder: (context, index) => ProjectWidget(project: provider.userModel!.projects[index]),
+        );
       },
     );
   }
