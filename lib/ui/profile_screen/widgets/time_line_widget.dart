@@ -1,10 +1,10 @@
 // Created by: Christo Pananjickal, Created at: 30-04-2024 11:50 am
 
 import 'package:flutter/material.dart';
-import 'package:intl/intl.dart';
 import 'package:portfolio/models/user_models/timeline_model.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
+import 'package:portfolio/utils/static_values.dart';
 
 class TimeLineWidget extends StatelessWidget {
   final List<TimelineModel> timelines;
@@ -96,8 +96,8 @@ class _TextWidget extends StatelessWidget {
       children: [
         Text(timeline.roleOrDegree, style: Ts.ts20W400(color: appColors.textBlue)),
         Text(
-          '${DateFormat('dd-MMM-yyyy').format(timeline.fromDate)} - ${timeline.toDate == null ? 'Current' : DateFormat('dd-MMM-yyyy').format(timeline.toDate!)}',
-          style: Ts.ts17W400(fontStyle: FontStyle.italic, color: timeline.toDate == null ? appColors.yellow : null),
+          '${StaticValues.commonDateFormat.format(timeline.fromDate)} - ${timeline.toDate == null ? 'Current' : StaticValues.commonDateFormat.format(timeline.toDate!)}',
+          style: Ts.ts16W400(fontStyle: FontStyle.italic, color: timeline.toDate == null ? appColors.yellow : null),
         ),
         Text(timeline.institutionName, style: Ts.ts17W400(fontStyle: FontStyle.italic)),
         Text(timeline.description, style: Ts.ts17W700(color: appColors.textDefault)),

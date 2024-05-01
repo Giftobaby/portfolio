@@ -1,16 +1,15 @@
 // Created by: Christo Pananjickal, Created at: 29-04-2024 01:17 pm
 
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:intl/intl.dart';
 import 'package:portfolio/extensions/context_extensions.dart';
 import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/ui/profile_screen/widgets/time_line_widget.dart';
+import 'package:portfolio/utils/static_values.dart';
 import 'package:provider/provider.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -54,7 +53,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                     _ProfileTextWidget(text1: 'Name', text2: provider.userModel!.profile.name),
                     _ProfileTextWidget(
                       text1: 'Date of Birth',
-                      text2: DateFormat('dd-MMM-yyyy').format(provider.userModel!.profile.dob),
+                      text2: StaticValues.commonDateFormat.format(provider.userModel!.profile.dob),
                     ),
                     _ProfileTextWidget(
                       text1: 'Duration Since Birth',
