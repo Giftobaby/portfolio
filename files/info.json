@@ -126,7 +126,7 @@
         "description": "I played with my parents, giggling and cooing in the most adorable way!",
         "from_date": "1999-01-30T00:00:00.000",
         "to_date": "2002-03-07T00:00:00.000",
-        "role_type": "studies"
+        "role_type": "baby"
       }
     ]
   },
@@ -185,6 +185,10 @@
     {
       "label": "studies",
       "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+    },
+    {
+      "label": "baby",
+      "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/baby.png"
     }
   ]
 }
