@@ -64,7 +64,6 @@
         "to_date": "2021-04-15T00:00:00.00",
         "role_type": "studies"
       },
-
       {
         "role_or_degree": "Music Programmer and Sound Engineer",
         "institution_name": "Freelance - KKC Music Workshop, Chalakudy",
@@ -78,11 +77,11 @@
         "institution_name": "Tunes Audio Studio, Chalakudy",
         "description": "Music recording, mixing, mastering and orchestration",
         "from_date": "2018-11-06T00:00:00.000",
-        "to_date": "2019-2-17T00:00:00.00",
+        "to_date": "2019-02-17T00:00:00.00",
         "role_type": "job"
       },
       {
-        "role_or_degree":"Higher Secondary",
+        "role_or_degree": "Higher Secondary",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
         "description": "Learned advanced level maths, science, and computer programming",
         "from_date": "2015-06-13T00:00:00.000",
@@ -90,7 +89,7 @@
         "role_type": "studies"
       },
       {
-        "role_or_degree":"High School",
+        "role_or_degree": "High School",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
         "description": "Learned maths, science, history and gained fundamental education",
         "from_date": "2012-05-07T00:00:00.000",
@@ -98,7 +97,7 @@
         "role_type": "studies"
       },
       {
-        "role_or_degree":"Upper Primary",
+        "role_or_degree": "Upper Primary",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
         "description": "Learned basic maths, environment science, and gained general knowledge",
         "from_date": "2009-05-07T00:00:00.000",
@@ -106,14 +105,15 @@
         "role_type": "studies"
       },
       {
-        "role_or_degree":"Lower Primary",
+        "role_or_degree": "Lower Primary",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
         "description": "Learned numbers, alphabets and stories",
         "from_date": "2004-05-07T00:00:00.000",
         "to_date": "2009-03-07T00:00:00.000",
         "role_type": "studies"
-      },{
-        "role_or_degree":"Kindergarten",
+      },
+      {
+        "role_or_degree": "Kindergarten",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
         "description": "Ruled the crayon kingdom, slayed dragons in storybooks, and fought for my \"teeny-weeny eraser\"",
         "from_date": "2002-05-07T00:00:00.000",
@@ -121,7 +121,7 @@
         "role_type": "studies"
       },
       {
-        "role_or_degree":"I was a tiny tot ;)",
+        "role_or_degree": "I was a tiny tot ;)",
         "institution_name": "My Little Sweet Home",
         "description": "I played with my parents, giggling and cooing in the most adorable way!",
         "from_date": "1999-01-30T00:00:00.000",
@@ -136,11 +136,26 @@
       "role": "Author and lead developer",
       "description": "An opensource Flutter package to cache network images fastly",
       "technologies": [
-        "Flutter",
-        "Dart",
-        "Git",
-        "Open source",
-        "Pub.dev"
+        {
+          "label": "Flutter",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+        },
+        {
+          "label": "Dart",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        },
+        {
+          "label": "Git",
+          "icon": ""
+        },
+        {
+          "label": "Open source",
+          "icon": ""
+        },
+        {
+          "label": "Pub.dev",
+          "icon": ""
+        }
       ],
       "urls": [
         {
@@ -161,5 +176,15 @@
     "phone": "+1 (226) 201-0774",
     "address": "215 Connaught St, Kitchener, Canada.",
     "postal_code": "ON N2C 1B2"
-  }
+  },
+  "additional_urls": [
+    {
+      "label": "job",
+      "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+    },
+    {
+      "label": "study",
+      "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/study.png"
+    }
+  ]
 }
