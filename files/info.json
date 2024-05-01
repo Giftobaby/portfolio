@@ -135,6 +135,8 @@
       "name": "Fast Cached Network Image",
       "role": "Author and lead developer",
       "description": "An opensource Flutter package to cache network images fastly",
+      "from_date": "1999-01-30T00:00:00.000",
+      "to_date": "1999-01-30T00:00:00.000",
       "technologies": [
         {
           "label": "Flutter",
@@ -160,12 +162,10 @@
       "urls": [
         {
           "label": "source code",
-          "icon": "",
           "url": "https://github.com/CHRISTOPANANJICKAL/fast_cached_network_image"
         },
         {
           "label": "package on pub.dev",
-          "icon": "",
           "url": "https://pub.dev/packages/fast_cached_network_image"
         }
       ]
