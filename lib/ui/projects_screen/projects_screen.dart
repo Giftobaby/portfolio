@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:portfolio/providers/user_info_provider.dart';
+import 'package:portfolio/theme/colors.dart';
+import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/ui/projects_screen/widgets/project_widget.dart';
 import 'package:provider/provider.dart';
 
@@ -12,10 +14,24 @@ class ProjectsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<UserInfoProvider>(
       builder: (context, provider, child) {
-        return GridView.builder(
-          itemCount: provider.userModel!.projects.length,
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-          itemBuilder: (context, index) => ProjectWidget(project: provider.userModel!.projects[index]),
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(12),
+              child: Text('What I Did', style: Ts.ts26W600(color: appColors.errorRed)),
+            ),
+            Expanded(
+              child: GridView.builder(
+                itemCount: provider.userModel!.projects.length,
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
+                itemBuilder: (context, index) => Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: ProjectWidget(project: provider.userModel!.projects[index]),
+                ),
+              ),
+            ),
+          ],
         );
       },
     );
