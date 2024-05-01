@@ -282,8 +282,8 @@
       "urls": [
         {
           "label": "Image",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/biller.png",
-          "url": "https://github.com/CHRISTOPANANJICKAL/fast_validator"
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
+          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/biller.png"
         }
       ]
     }
