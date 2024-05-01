@@ -44,52 +44,42 @@ class _ProfileScreenState extends State<ProfileScreen> {
       builder: (context, provider, child) {
         return Padding(
           padding: const EdgeInsets.all(12),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+          child: Row(
             children: [
               SizedBox(
                 width: context.percentWidth * 60,
-                child: Row(
-                  mainAxisSize: MainAxisSize.min,
+                child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        _ProfileTextWidget(text: 'Name'),
-                        _ProfileTextWidget(text: 'Date of Birth'),
-                        _ProfileTextWidget(text: 'Duration Since Birth'),
-                        _ProfileTextWidget(text: 'What am I'),
-                      ],
+                    _ProfileTextWidget(text1: 'Name', text2: provider.userModel!.profile.name),
+                    _ProfileTextWidget(
+                      text1: 'Date of Birth',
+                      text2: DateFormat('dd-MMM-yyyy').format(provider.userModel!.profile.dob),
                     ),
-                    const Padding(
-                      padding: EdgeInsets.symmetric(horizontal: 12),
-                      child: Column(
-                        children: [
-                          _ProfileTextWidget(text: ':'),
-                          _ProfileTextWidget(text: ':'),
-                          _ProfileTextWidget(text: ':'),
-                          _ProfileTextWidget(text: ':'),
-                        ],
-                      ),
+                    _ProfileTextWidget(
+                      text1: 'Duration Since Birth',
+                      text2: _getAgeString(provider.userModel!.profile.dob),
                     ),
-                    Flexible(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          _ProfileTextWidget(text: provider.userModel!.profile.name),
-                          _ProfileTextWidget(text: DateFormat('dd-MMM-yyyy').format(provider.userModel!.profile.dob)),
-                          _ProfileTextWidget(text: _getAgeString(provider.userModel!.profile.dob)),
-                          _ProfileTextWidget(text: provider.userModel!.profile.whatAmI),
-                        ],
-                      ),
+                    _ProfileTextWidget(text1: 'My Tagline', text2: provider.userModel!.profile.myTagLine),
+                    _ProfileTextWidget(
+                      text1: 'What am I',
+                      text2: provider.userModel!.profile.whatAmI,
+                      style2: Ts.ts20W400(),
                     ),
                   ],
                 ),
               ),
-              const SizedBox(height: 36),
-              Text('My Timeline', style: Ts.ts26W600(color: appColors.textBlue)),
-              Expanded(child: TimeLineWidget(timelines: provider.userModel!.profile.timeline)),
+              SizedBox(width: context.percentWidth * 5),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text('My Timeline', style: Ts.ts26W600(color: appColors.errorRed)),
+                    const SizedBox(height: 4),
+                    Expanded(child: TimeLineWidget(timelines: provider.userModel!.profile.timeline)),
+                  ],
+                ),
+              ),
             ],
           ),
         );
@@ -113,20 +103,23 @@ class _ProfileScreenState extends State<ProfileScreen> {
 }
 
 class _ProfileTextWidget extends StatelessWidget {
-  final String text;
-  const _ProfileTextWidget({required this.text});
+  final String text1;
+  final String text2;
+  final TextStyle? style2;
+  const _ProfileTextWidget({required this.text1, required this.text2, this.style2});
 
   @override
   Widget build(BuildContext context) {
-    return Padding(padding: const EdgeInsets.symmetric(vertical: 4), child: Text(text, style: Ts.ts18W600()));
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          SizedBox(width: 190, child: Text(text1, style: Ts.ts20W600())),
+          Padding(padding: const EdgeInsets.only(right: 6), child: Text(':', style: Ts.ts20W600())),
+          Flexible(child: Text(text2, style: style2 ?? Ts.ts20W600())),
+        ],
+      ),
+    );
   }
 }
-
-// class _ProfileSpaceWidget extends StatelessWidget {
-//   const _ProfileSpaceWidget({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return ;
-//   }
-// }

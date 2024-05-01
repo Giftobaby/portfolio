@@ -1,12 +1,13 @@
 // Created by: Christo Pananjickal, Created at: 30-04-2024 11:50 am
 
-import 'package:flutter/cupertino.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:portfolio/models/user_models/education_model.dart';
+import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
+import 'package:provider/provider.dart';
 
 class TimeLineWidget extends StatelessWidget {
   final List<TimelineModel> timelines;
@@ -14,14 +15,11 @@ class TimeLineWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      // width: 600,
-      child: ListView.builder(
-        itemCount: timelines.length,
-        padding: EdgeInsets.zero,
-        itemBuilder: (context, index) =>
-            _TimeLine(timeline: timelines[index], isFirst: index == 0, isLast: index == timelines.length - 1),
-      ),
+    return ListView.builder(
+      itemCount: timelines.length,
+      padding: const EdgeInsets.only(top: 3),
+      itemBuilder: (context, index) =>
+          _TimeLine(timeline: timelines[index], isFirst: index == 0, isLast: index == timelines.length - 1),
     );
   }
 }
@@ -43,15 +41,23 @@ class _TimeLine extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Flexible(child: _Line(avoidMinHeight: true, transparent: isFirst)),
-                  Container(
-                    width: 16,
-                    decoration: BoxDecoration(color: appColors.text1Hover, shape: BoxShape.circle),
-                    padding: const EdgeInsets.all(1),
-                    child: Container(
-                      padding: const EdgeInsets.all(5),
-                      decoration: BoxDecoration(color: appColors.bgBlack, shape: BoxShape.circle),
+                  _Line(height: 4, avoidMinHeight: true, transparent: isFirst),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 3),
+                    child: Image.network(
+                      (context
+                              .read<UserInfoProvider>()
+                              .userModel!
+                              .additionalUrls
+                              .firstWhereOrNull((e) => e.label == timeline.roleType.label)
+                              ?.url) ??
+                          '',
+                      height: 18,
+                      width: 18,
+                      color: appColors.text1,
+                      errorBuilder: (context, a, s) => Icon(Icons.image, color: appColors.text1, size: 12),
                     ),
                   ),
                   Flexible(child: _Line(avoidMinHeight: true, transparent: isLast)),
@@ -70,12 +76,14 @@ class _TimeLine extends StatelessWidget {
 class _Line extends StatelessWidget {
   final bool avoidMinHeight;
   final bool transparent;
-  const _Line({this.avoidMinHeight = false, this.transparent = false});
+  final double? height;
+  const _Line({this.avoidMinHeight = false, this.transparent = false, this.height});
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 16,
+      width: 20,
+      height: height,
       alignment: Alignment.center,
       child: Container(
         width: 1,
@@ -95,13 +103,13 @@ class _TextWidget extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(timeline.roleOrDegree, style: Ts.ts20W400()),
+        Text(timeline.roleOrDegree, style: Ts.ts20W400(color: appColors.textBlue)),
         Text(
           '${DateFormat('dd-MMM-yyyy').format(timeline.fromDate)} - ${timeline.toDate == null ? 'Current' : DateFormat('dd-MMM-yyyy').format(timeline.toDate!)}',
-          style: Ts.ts14W400(fontStyle: FontStyle.italic),
+          style: Ts.ts17W400(fontStyle: FontStyle.italic, color: timeline.toDate == null ? appColors.yellow : null),
         ),
-        Text(timeline.institutionName, style: Ts.ts14W400(fontStyle: FontStyle.italic)),
-        Text(timeline.description, style: Ts.ts14W400()),
+        Text(timeline.institutionName, style: Ts.ts17W400(fontStyle: FontStyle.italic)),
+        Text(timeline.description, style: Ts.ts17W700(color: appColors.textDefault)),
       ],
     );
   }

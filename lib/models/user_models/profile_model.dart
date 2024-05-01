@@ -8,6 +8,7 @@ class ProfileModel {
   String profileImage;
   String whatAmI;
   DateTime dob;
+  String myTagLine;
   List<TimelineModel> timeline;
 
   ProfileModel({
@@ -16,6 +17,7 @@ class ProfileModel {
     required this.profileImage,
     required this.dob,
     required this.whatAmI,
+    required this.myTagLine,
     required this.timeline,
   });
 
@@ -23,6 +25,7 @@ class ProfileModel {
         name: json['name'] ?? '',
         shortName: json['short_name'] ?? '',
         profileImage: json['profile_image'] ?? '',
+        myTagLine: json['my_tag_line'] ?? '',
         whatAmI: json['what_am_i'] ?? '',
         dob: DateTime.tryParse(json['dob']) ?? DateTime.now(),
         timeline: List<TimelineModel>.from((json['timeline'] ?? []).map((e) => TimelineModel.fromJson(e))),

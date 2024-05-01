@@ -238,6 +238,16 @@ class Ts {
     );
   }
 
+  static TextStyle ts17W300({Color? color, String? fontFamily, FontStyle? fontStyle}) {
+    return GoogleFonts.getFont(
+      fontFamily ?? _defaultFont,
+      fontSize: 17,
+      fontWeight: FontWeight.w300,
+      color: color ?? appColors.textDefault,
+      fontStyle: fontStyle,
+    );
+  }
+
   static TextStyle ts17W400({Color? color, String? fontFamily, FontStyle? fontStyle}) {
     return GoogleFonts.getFont(
       fontFamily ?? _defaultFont,

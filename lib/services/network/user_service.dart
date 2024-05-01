@@ -1,6 +1,8 @@
 // Created by: Christo Pananjickal, Created at: 28-04-2024 12:36 pm
 
 import 'dart:convert';
+import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:portfolio/models/api_models/api_response_model.dart';
 import 'package:http/http.dart' as http;
 import 'package:portfolio/models/user_models/user_model.dart';
@@ -18,7 +20,7 @@ class UserService {
 
     try {
       /// Get user info through API.
-      httpResponse = await http.get(Endpoints.userInfo);
+      httpResponse = await (kDebugMode ? _loadLocalFile() : http.get(Endpoints.userInfo));
 
       /// Http call was successful if the status code starts with '2'.
       if (httpResponse.statusCode.toString().startsWith('2')) {
@@ -59,6 +61,16 @@ class UserService {
       return userModel;
     } catch (_) {
       return null;
+    }
+  }
+
+  static Future<http.Response> _loadLocalFile() async {
+    final file = File('E:/portfolio/files/info.json');
+    try {
+      String fileContent = await file.readAsString();
+      return http.Response(fileContent, 200);
+    } catch (e) {
+      return http.Response('', 400);
     }
   }
 }

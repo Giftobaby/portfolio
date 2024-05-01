@@ -30,6 +30,7 @@ class TimelineModel {
 
 enum RoleType {
   studies('studies'),
+  baby('baby'),
   job('job');
 
   final String label;

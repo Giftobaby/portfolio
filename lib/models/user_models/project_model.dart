@@ -6,7 +6,7 @@ class ProjectModel {
   String name;
   String role;
   String description;
-  List<String> technologies;
+  List<UrlModel> technologies;
   List<UrlModel> urls;
 
   ProjectModel({
@@ -21,7 +21,7 @@ class ProjectModel {
         name: json['name'] ?? '',
         role: json['role'] ?? '',
         description: json['description'] ?? '',
-        technologies: List<String>.from((json['technologies'] ?? []).map((x) => x)),
+        technologies: List<UrlModel>.from((json['technologies'] ?? []).map((x) => UrlModel.fromJson(x))),
         urls: List<UrlModel>.from((json['urls'] ?? []).map((x) => UrlModel.fromJson(x))),
       );
 }
