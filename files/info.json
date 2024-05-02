@@ -376,7 +376,7 @@
     },
     {
       "name": "Electra",
-      "role": "Ideator",
+      "role": "Ideator and Creator",
       "description": "A human sized robot which can move and speak spontaniously. The movement is controlled by an RF remote and the speach is made from a text to speech converter. This was made for my school exhibition inaguration. The sudents can ask question real-time and the reply to the questions whill be typed by us (from behind the stage), so the audience will feel like the robot is replying by its own ;)",
       "from_date": "2017-15-03T00:00:00.000",
       "to_date": "2019-15-18T00:00:00.000",
