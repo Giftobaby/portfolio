@@ -22,12 +22,16 @@ class ProjectsScreen extends StatelessWidget {
               child: Text('What I Did', style: Ts.ts26W600(color: appColors.errorRed)),
             ),
             Expanded(
-              child: GridView.builder(
-                itemCount: provider.userModel!.projects.length,
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
-                itemBuilder: (context, index) => Padding(
-                  padding: const EdgeInsets.all(12),
-                  child: ProjectWidget(project: provider.userModel!.projects[index]),
+              child: SingleChildScrollView(
+                child: Wrap(
+                  children: [
+                    for (final i in provider.userModel!.projects)
+                      Container(
+                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                        width: 616,
+                        child: ProjectWidget(project: i),
+                      ),
+                  ],
                 ),
               ),
             ),

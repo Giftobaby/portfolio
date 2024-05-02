@@ -16,6 +16,7 @@ class ProjectWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisSize: MainAxisSize.min,
       children: [
         Text(project.name, style: Ts.ts20W600(color: appColors.textBlue)),
         Text(
