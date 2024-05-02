@@ -12,6 +12,7 @@ import 'package:portfolio/services/navigation_service/routes.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart';
+import 'package:portfolio/widgets/snackbar.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -69,7 +70,9 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
   Future<void> _openResume(String url) async {
     try {
       await launchUrl(Uri.parse(url));
-    } catch (_) {}
+    } catch (_) {
+      if (mounted) showSnackBar(context, 'Failed to open resume');
+    }
   }
 }
 

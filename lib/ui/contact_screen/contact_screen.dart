@@ -6,6 +6,7 @@ import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart';
+import 'package:portfolio/widgets/snackbar.dart';
 import 'package:provider/provider.dart';
 
 class ContactScreen extends StatelessWidget {
@@ -69,23 +70,6 @@ class _TextWithCopyIcon extends StatelessWidget {
 
   void _copy(BuildContext context) {
     Clipboard.setData(ClipboardData(text: text));
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        backgroundColor: appColors.bgBlack,
-        content: Row(
-          children: [
-            Container(
-              decoration:
-                  BoxDecoration(color: appColors.bgBlack2, borderRadius: const BorderRadius.all(Radius.circular(12))),
-              padding: const EdgeInsets.all(12),
-              child: Text('$text copied to clipboard', style: Ts.ts17W400(color: appColors.errorRed)),
-            ),
-            const Spacer(),
-          ],
-        ),
-        behavior: SnackBarBehavior.floating,
-        duration: const Duration(seconds: 1),
-      ),
-    );
+    showSnackBar(context, '$text copied to clipboard');
   }
 }

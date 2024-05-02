@@ -5,6 +5,7 @@ import 'package:portfolio/extensions/string_extensions.dart';
 import 'package:portfolio/models/user_models/url_model.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
+import 'package:portfolio/widgets/snackbar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class UrlListWidget extends StatelessWidget {
@@ -28,10 +29,15 @@ class UrlListWidget extends StatelessWidget {
   }
 }
 
-class _ListTile extends StatelessWidget {
+class _ListTile extends StatefulWidget {
   final UrlModel url;
   const _ListTile({required this.url});
 
+  @override
+  State<_ListTile> createState() => _ListTileState();
+}
+
+class _ListTileState extends State<_ListTile> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -46,7 +52,7 @@ class _ListTile extends StatelessWidget {
               child: ClipRRect(
                 borderRadius: const BorderRadius.all(Radius.circular(4)),
                 child: Image.network(
-                  url.icon,
+                  widget.url.icon,
                   height: 26,
                   width: 26,
                   fit: BoxFit.contain,
@@ -55,7 +61,7 @@ class _ListTile extends StatelessWidget {
               ),
             ),
             const SizedBox(width: 4),
-            Text(url.label.toFirstLetterUpperCase(), style: Ts.ts16W600(color: appColors.textBlue)),
+            Text(widget.url.label.toFirstLetterUpperCase(), style: Ts.ts16W600(color: appColors.textBlue)),
           ],
         ),
       ),
@@ -64,7 +70,9 @@ class _ListTile extends StatelessWidget {
 
   Future<void> _openUrl() async {
     try {
-      await launchUrl(Uri.parse(url.url));
-    } catch (_) {}
+      await launchUrl(Uri.parse(widget.url.url));
+    } catch (_) {
+      if (mounted) showSnackBar(context, 'Failed to open url');
+    }
   }
 }
