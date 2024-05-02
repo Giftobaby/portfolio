@@ -289,7 +289,7 @@
     },
     {
       "name": "Social Wall",
-      "role": "Visionary Frontend developer, done from ATeam Soft Solutions",
+      "role": "Ideator Frontend developer, done from ATeam Soft Solutions",
       "description": "An digital LED wall for a Google Developer Groups (2022 TVM, India) meet in which the participants can upload their selfies taken during the meet which will be randomly displayed on an LED wall. This project was done to increase the engagement of participants during the meet.",
       "from_date": "2022-11-6T00:00:00.000",
       "to_date": "2022-11-10T00:00:00.000",
@@ -352,8 +352,56 @@
           "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
         }
       ]
+    },
+    {
+      "name": "Med-Codes",
+      "role": "Lead Developer - freelance",
+      "description": "A windows application made for a medical coding institution in kerala. The application contains code to code-description search, keywords to code-description search, authentication, lience keys by which the institution can control the expiry of the application and text books for reference.",
+      "from_date": "2019-02-25T00:00:00.000",
+      "to_date": "2019-03-04T00:00:00.000",
+      "technologies": [
+        {
+          "label": "Flutter",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+        },
+        {
+          "label": "Python",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/python.png"
+        },
+        {
+          "label": "Dart",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        }
+      ]
+    },
+    {
+      "name": "Electra",
+      "role": "Ideator",
+      "description": "A human sized robot which can move and speak spontaniously. The movement is controlled by an RF remote and the speach is made from a text to speech converter. This was made for my school exhibition inaguration. The sudents can ask question real-time and the reply to the questions whill be typed by us (from behind the stage), so the audience will feel like the robot is replying by its own ;)",
+      "from_date": "2017-15-03T00:00:00.000",
+      "to_date": "2019-15-18T00:00:00.000",
+      "technologies": [
+        {
+          "label": "RC Helicorptor control circuit",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/circuit.png"
+        },
+        {
+          "label": "Text to speach",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/tts.png"
+        },
+        {
+          "label": "Own made circuits",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/circuit.png"
+        }
+      ],
+      "urls": [
+        {
+          "label": "Image",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
+          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/robot.jpg"
+        }
+      ]
     }
-
   ],
   "contact": {
     "email_id": "christopananjickal01@gmail.com",
