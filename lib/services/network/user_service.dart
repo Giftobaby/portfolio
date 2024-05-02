@@ -19,8 +19,6 @@ class UserService {
     ApiResponseModel<UserModel> responseModel = ApiResponseModel<UserModel>(data: null, message: '', success: false);
 
     try {
-      await Future.delayed(const Duration(seconds: 5));
-
       /// Get user info through API.
       httpResponse = await (kDebugMode ? _loadLocalFile() : http.get(Endpoints.userInfo));
 
@@ -69,6 +67,8 @@ class UserService {
   static Future<http.Response> _loadLocalFile() async {
     final file = File('E:/portfolio/files/info.json');
     try {
+      /// mock network delay
+      await Future.delayed(const Duration(seconds: 5));
       String fileContent = await file.readAsString();
       return http.Response(fileContent, 200);
     } catch (e) {
