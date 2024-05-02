@@ -10,13 +10,21 @@ class UserModel {
   ProfileModel profile;
   List<ProjectModel> projects;
   ContactModel contact;
+  String resumeUrl;
 
-  UserModel({required this.about, required this.profile, required this.projects, required this.contact});
+  UserModel({
+    required this.about,
+    required this.profile,
+    required this.projects,
+    required this.contact,
+    required this.resumeUrl,
+  });
 
   factory UserModel.fromJson(Map<String, dynamic> json) => UserModel(
         about: AboutModel.fromJson(json['about'] ?? {}),
         profile: ProfileModel.fromJson(json['profile'] ?? {}),
         projects: List<ProjectModel>.from((json['projects'] ?? []).map((x) => ProjectModel.fromJson(x))),
         contact: ContactModel.fromJson(json['contact'] ?? {}),
+        resumeUrl: json['resume_url'] ?? '',
       );
 }

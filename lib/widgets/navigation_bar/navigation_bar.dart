@@ -13,6 +13,7 @@ import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class TopNavigationBar extends StatefulWidget {
   const TopNavigationBar({super.key});
@@ -24,45 +25,51 @@ class TopNavigationBar extends StatefulWidget {
 class _TopNavigationBarState extends State<TopNavigationBar> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 75,
-      color: appColors.bgBlack2,
-      padding: const EdgeInsets.symmetric(horizontal: 24),
-      child: Row(
-        children: [
-          SizedBox(
-            width: context.percentWidth * 25,
-            child: Consumer<UserInfoProvider>(
-              builder: (context, provider, child) {
-                return Text(
+    return Consumer<UserInfoProvider>(
+      builder: (context, provider, child) {
+        return Container(
+          height: 75,
+          color: appColors.bgBlack2,
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: Row(
+            children: [
+              SizedBox(
+                width: context.percentWidth * 25,
+                child: Text(
                   provider.userModel == null ? '' : '< ${provider.userModel?.profile.name} >',
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: Ts.ts26W600(color: appColors.text1),
-                );
-              },
-            ),
+                ),
+              ),
+              const Spacer(),
+              _SideMenuItem(route: AppRoutes.about, onTap: _navigate),
+              _SideMenuItem(route: AppRoutes.profile, onTap: _navigate),
+              _SideMenuItem(route: AppRoutes.projects, onTap: _navigate),
+              _SideMenuItem(route: AppRoutes.contact, onTap: _navigate),
+              Padding(
+                padding: const EdgeInsets.only(left: 46),
+                child: _SideMenuItem(
+                  route: AppRoute(name: 'Resume', path: '', goBuilder: (a, b) => const SizedBox()),
+                  onTap: (a) => _openResume(provider.userModel!.resumeUrl),
+                ),
+              ),
+            ],
           ),
-          const Spacer(),
-          _SideMenuItem(route: AppRoutes.about, onTap: _navigate),
-          _SideMenuItem(route: AppRoutes.profile, onTap: _navigate),
-          _SideMenuItem(route: AppRoutes.projects, onTap: _navigate),
-          _SideMenuItem(route: AppRoutes.contact, onTap: _navigate),
-          Padding(
-            padding: const EdgeInsets.only(left: 46),
-            child: _SideMenuItem(
-              route: AppRoute(name: 'Resume', path: '', goBuilder: (a, b) => const SizedBox()),
-              onTap: (a) => print('open resume'),
-            ),
-          ),
-        ],
-      ),
+        );
+      },
     );
   }
 
   void _navigate(AppRoute route) {
     AppNavigator.navigate(route);
     setState(() => {});
+  }
+
+  Future<void> _openResume(String url) async {
+    try {
+      await launchUrl(Uri.parse(url));
+    } catch (_) {}
   }
 }
 
