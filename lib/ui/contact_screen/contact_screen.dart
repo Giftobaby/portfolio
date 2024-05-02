@@ -7,7 +7,7 @@ import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/widgets/custom_future_builder.dart';
 import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart';
-import 'package:portfolio/widgets/snackbar.dart';
+import 'package:portfolio/widgets/snack_bar.dart';
 import 'package:provider/provider.dart';
 
 class ContactScreen extends StatelessWidget {

@@ -5,7 +5,7 @@ import 'package:portfolio/extensions/string_extensions.dart';
 import 'package:portfolio/models/user_models/url_model.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
-import 'package:portfolio/widgets/snackbar.dart';
+import 'package:portfolio/widgets/snack_bar.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class UrlListWidget extends StatelessWidget {
