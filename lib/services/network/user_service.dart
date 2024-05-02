@@ -19,6 +19,8 @@ class UserService {
     ApiResponseModel<UserModel> responseModel = ApiResponseModel<UserModel>(data: null, message: '', success: false);
 
     try {
+      await Future.delayed(const Duration(seconds: 5));
+
       /// Get user info through API.
       httpResponse = await (kDebugMode ? _loadLocalFile() : http.get(Endpoints.userInfo));
 

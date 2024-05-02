@@ -11,8 +11,7 @@ import 'package:portfolio/ui/splash_screen/splash_screen.dart';
 import 'app_route_model.dart';
 
 class AppRoutes {
-  static final AppRoute splash =
-      AppRoute(path: '/splash', name: 'splash', goBuilder: (c, s) => const SplashScreen());
+  static final AppRoute splash = AppRoute(path: '/splash', name: 'splash', goBuilder: (c, s) => const SplashScreen());
 
   static final AppRoute baseWindow = AppRoute(
     shellBuilder: (c, s, d) => BaseWindowScreen(child: d),

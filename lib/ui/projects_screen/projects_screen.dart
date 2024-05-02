@@ -5,6 +5,7 @@ import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/ui/projects_screen/widgets/project_widget.dart';
+import 'package:portfolio/widgets/custom_future_builder.dart';
 import 'package:provider/provider.dart';
 
 class ProjectsScreen extends StatelessWidget {
@@ -14,28 +15,35 @@ class ProjectsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<UserInfoProvider>(
       builder: (context, provider, child) {
-        return Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(12),
-              child: Text('What I Did', style: Ts.ts26W600(color: appColors.errorRed)),
-            ),
-            Expanded(
-              child: SingleChildScrollView(
-                child: Wrap(
-                  children: [
-                    for (final i in provider.userModel!.projects)
-                      Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
-                        width: 616,
-                        child: ProjectWidget(project: i),
-                      ),
-                  ],
+        return CustomFutureBuilder(
+          status: provider.status,
+          onRetryTap: provider.getUserInfo,
+          errorMessage: provider.errorMessage,
+          childBuilder: (context) {
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(12),
+                  child: Text('What I Did', style: Ts.ts26W600(color: appColors.errorRed)),
                 ),
-              ),
-            ),
-          ],
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Wrap(
+                      children: [
+                        for (final i in provider.userModel!.projects)
+                          Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+                            width: 616,
+                            child: ProjectWidget(project: i),
+                          ),
+                      ],
+                    ),
+                  ),
+                ),
+              ],
+            );
+          },
         );
       },
     );

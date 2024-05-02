@@ -10,6 +10,7 @@ import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/ui/profile_screen/widgets/time_line_widget.dart';
 import 'package:portfolio/utils/static_values.dart';
+import 'package:portfolio/widgets/custom_future_builder.dart';
 import 'package:provider/provider.dart';
 
 class ProfileScreen extends StatefulWidget {
@@ -41,46 +42,53 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     return Consumer<UserInfoProvider>(
       builder: (context, provider, child) {
-        return Padding(
-          padding: const EdgeInsets.all(12),
-          child: Row(
-            children: [
-              SizedBox(
-                width: context.percentWidth * 60,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    _ProfileTextWidget(text1: 'Name', text2: provider.userModel!.profile.name),
-                    _ProfileTextWidget(
-                      text1: 'Date of Birth',
-                      text2: StaticValues.commonDateFormat.format(provider.userModel!.profile.dob),
+        return CustomFutureBuilder(
+          status: provider.status,
+          onRetryTap: provider.getUserInfo,
+          errorMessage: provider.errorMessage,
+          childBuilder: (context) {
+            return Padding(
+              padding: const EdgeInsets.all(12),
+              child: Row(
+                children: [
+                  SizedBox(
+                    width: context.percentWidth * 60,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        _ProfileTextWidget(text1: 'Name', text2: provider.userModel!.profile.name),
+                        _ProfileTextWidget(
+                          text1: 'Date of Birth',
+                          text2: StaticValues.commonDateFormat.format(provider.userModel!.profile.dob),
+                        ),
+                        _ProfileTextWidget(
+                          text1: 'Duration Since Birth',
+                          text2: _getAgeString(provider.userModel!.profile.dob),
+                        ),
+                        _ProfileTextWidget(text1: 'My Tagline', text2: provider.userModel!.profile.myTagLine),
+                        _ProfileTextWidget(
+                          text1: 'What am I',
+                          text2: provider.userModel!.profile.whatAmI,
+                          style2: Ts.ts20W400(),
+                        ),
+                      ],
                     ),
-                    _ProfileTextWidget(
-                      text1: 'Duration Since Birth',
-                      text2: _getAgeString(provider.userModel!.profile.dob),
+                  ),
+                  SizedBox(width: context.percentWidth * 5),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('My Timeline', style: Ts.ts26W600(color: appColors.errorRed)),
+                        const SizedBox(height: 4),
+                        Expanded(child: TimeLineWidget(timelines: provider.userModel!.profile.timeline)),
+                      ],
                     ),
-                    _ProfileTextWidget(text1: 'My Tagline', text2: provider.userModel!.profile.myTagLine),
-                    _ProfileTextWidget(
-                      text1: 'What am I',
-                      text2: provider.userModel!.profile.whatAmI,
-                      style2: Ts.ts20W400(),
-                    ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-              SizedBox(width: context.percentWidth * 5),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('My Timeline', style: Ts.ts26W600(color: appColors.errorRed)),
-                    const SizedBox(height: 4),
-                    Expanded(child: TimeLineWidget(timelines: provider.userModel!.profile.timeline)),
-                  ],
-                ),
-              ),
-            ],
-          ),
+            );
+          },
         );
       },
     );

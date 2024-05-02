@@ -32,9 +32,6 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
-      width: 300,
-      color: Colors.yellow,
       child: Text(
         'Spash Animation',
         style: Ts.ts16W500(color: Colors.white),
