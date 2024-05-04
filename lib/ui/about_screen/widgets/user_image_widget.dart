@@ -13,8 +13,8 @@ class UserImageWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return FittedBox(
       child: Container(
-        height: 360,
-        width: 360,
+        height: context.percentWidth * 20,
+        width: context.percentWidth * 20,
         decoration: BoxDecoration(shape: BoxShape.circle, border: Border.all(color: appColors.text1, width: 4)),
         child: ClipOval(
           child: Image.network(

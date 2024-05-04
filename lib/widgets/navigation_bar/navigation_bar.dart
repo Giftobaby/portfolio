@@ -49,7 +49,7 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
               _SideMenuItem(route: AppRoutes.projects, onTap: _navigate),
               _SideMenuItem(route: AppRoutes.contact, onTap: _navigate),
               Padding(
-                padding: const EdgeInsets.only(left: 46),
+                padding: EdgeInsets.only(left: context.percentWidth * 2),
                 child: _SideMenuItem(
                   route: AppRoute(name: 'Resume', path: '', goBuilder: (a, b) => const SizedBox()),
                   onTap: (a) => _openResume(provider),
