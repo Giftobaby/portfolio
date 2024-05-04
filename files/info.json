@@ -327,7 +327,7 @@
     {
       "name": "Family Doctor",
       "role": "Lead Developer - freelance",
-      "description": "A windows application made for a homeopathy doctor in which case sheets of all patients can be saved. The software includes patient management, pharmacy management, local authentication, symptioms to disease prediction, disease to medicine prediction, and many textbooks for reference and studies.",
+      "description": "A windows application made for a homeopathy doctor in which case sheets of all patients can be saved. The software includes patient management, pharmacy management, local authentication, symptoms to disease prediction, disease to medicine prediction, and many textbooks for reference and studies.",
       "from_date": "2020-02-06T00:00:00.000",
       "to_date": "2021-06-08T00:00:00.000",
       "technologies": [
@@ -356,7 +356,7 @@
     {
       "name": "Med-Codes",
       "role": "Lead Developer - freelance",
-      "description": "A windows application made for a medical coding institution in kerala. The application contains code to code-description search, keywords to code-description search, authentication, lience keys by which the institution can control the expiry of the application and text books for reference.",
+      "description": "A windows application made for a medical coding institution in kerala. The application contains code to code-description search, keywords to code-description search, authentication, licence keys by which the institution can control the expiry of the application and text books for reference. Google Apps Script and Google sheets is used as the backend for this application(innovative approach), since the client didn't have much to spend on a backend developer and server.",
       "from_date": "2019-02-25T00:00:00.000",
       "to_date": "2019-03-04T00:00:00.000",
       "technologies": [
@@ -371,22 +371,30 @@
         {
           "label": "Dart",
           "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        },
+        {
+          "label": "Apps Script",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/apps_script.png"
+        },
+        {
+          "label": "Google Sheets",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/sheets.png"
         }
       ]
     },
     {
       "name": "Electra",
       "role": "Ideator and Creator",
-      "description": "A human sized robot which can move and speak spontaniously. The movement is controlled by an RF remote and the speach is made from a text to speech converter. This was made for my school exhibition inaguration. The sudents can ask question real-time and the reply to the questions whill be typed by us (from behind the stage), so the audience will feel like the robot is replying by its own ;)",
+      "description": "A human sized robot which can move and speak spontaneously. The movement is controlled by an RF remote and the speech is made from a text to speech converter. This was made for my school exhibition inauguration. The students can ask question real-time and the reply to the questions will be typed by us (from behind the stage), so the audience will feel like the robot is replying by its own ;)",
       "from_date": "2017-15-03T00:00:00.000",
       "to_date": "2019-15-18T00:00:00.000",
       "technologies": [
         {
-          "label": "RC Helicorptor control circuit",
+          "label": "RC Helicopter control circuit",
           "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/circuit.png"
         },
         {
-          "label": "Text to speach",
+          "label": "Text to speech",
           "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/tts.png"
         },
         {
