@@ -383,6 +383,39 @@
       ]
     },
     {
+      "name": "My Portfolio",
+      "role": "Lead Developer",
+      "description": "The website which you are reading currently. Highly customizable and hosted in Github pages(free). All the data shown in this page is fetched through a REST API. If someone want to use this portfolio, they can just clone the git repo and replace this json file with theirs. Also to make any kind of update in the website, there is no need of a new build, just update the details in json file and you are all set.",
+      "from_date": "2023-04-23T00:00:00.000",
+      "to_date": "",
+      "technologies": [
+        {
+          "label": "Flutter",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+        },
+        {
+          "label": "Dart",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+        },
+        {
+          "label": "Git",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+        },
+        {
+          "label": "GitHub",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+        }
+      ],
+      "urls": [
+        {
+          "label": "source code",
+          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
+          "url": "https://github.com/CHRISTOPANANJICKAL/portfolio"
+        }
+      ]
+
+    },
+    {
       "name": "Electra",
       "role": "Ideator and Creator",
       "description": "A human sized robot which can move and speak spontaneously. The movement is controlled by an RF remote and the speech is made from a text to speech converter. This was made for my school exhibition inauguration. The students can ask question real-time and the reply to the questions will be typed by us (from behind the stage), so the audience will feel like the robot is replying by its own ;)",
