@@ -3,12 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9",
-"assets/AssetManifest.bin.json": "a1fee2517bf598633e2f67fcf3e26c94",
-"assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
+const RESOURCES = {"assets/AssetManifest.bin": "6bf89c960924d2d830651fcc9e3d1805",
+"assets/AssetManifest.bin.json": "092c33afc888ceb489aa0988b022a1b4",
+"assets/AssetManifest.json": "658c70c78912739766d6f2e287f6c66e",
+"assets/assets/hand.json": "ce8811ddddb8a7f57a87202383bc2b85",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "fd8238023b01370851f251b3a4af505d",
-"assets/NOTICES": "204eab75cd9ec091a81f0987b791d038",
+"assets/fonts/MaterialIcons-Regular.otf": "abaebb7dfaa5f29b5c19abb021bf6de7",
+"assets/NOTICES": "a38edc257f84ed2fec610192d415a31e",
 "assets/shaders/ink_sparkle.frag": "ecc85a2e95f5e9f53123dcaf8cb9b6ce",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
 "canvaskit/canvaskit.js.symbols": "38cba9233b92472a36ff011dc21c2c9f",
@@ -26,9 +27,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "0b0a3415aad49b6e9bf965ff578614f9
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "74be1128700fbe073a3f2fdd87d5ba38",
-"/": "74be1128700fbe073a3f2fdd87d5ba38",
-"main.dart.js": "05236daab04b96d44f57298e1f9029dd",
+"index.html": "8ef2aaaced048c570e8fe187109cd612",
+"/": "8ef2aaaced048c570e8fe187109cd612",
+"main.dart.js": "026cc258a23329cc892ff38a3a47aa5d",
 "manifest.json": "e74af8957b5899dc6da961caee768ec9",
 "version.json": "009c9e65172e010890f7f65fde438006"};
 // The application shell files that are downloaded before a service worker can
