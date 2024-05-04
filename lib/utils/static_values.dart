@@ -4,5 +4,5 @@ import 'package:intl/intl.dart';
 
 class StaticValues {
   static const String appName = 'Portfolio';
-  static DateFormat commonDateFormat = DateFormat('dd-MMM-yyyy');
+  static DateFormat commonDateFormat = DateFormat('MMM-dd-yyyy');
 }
