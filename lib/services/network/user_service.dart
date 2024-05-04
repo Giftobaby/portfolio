@@ -1,5 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 28-04-2024 12:36 pm
 
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
@@ -20,7 +21,8 @@ class UserService {
 
     try {
       /// Get user info through API.
-      httpResponse = await (kDebugMode ? _loadLocalFile() : http.get(Endpoints.userInfo));
+      httpResponse =
+          await ((kDebugMode ? _loadLocalFile() : http.get(Endpoints.userInfo))).timeout(const Duration(seconds: 7));
 
       /// Http call was successful if the status code starts with '2'.
       if (httpResponse.statusCode.toString().startsWith('2')) {
@@ -43,10 +45,11 @@ class UserService {
 
       /// Status code of http call didn't start with '2', which means the server returned an error.
       throw Exception();
-    } catch (_) {
+    } catch (e) {
       /// Handle all the errors.
       String statusCode = httpResponse?.statusCode == null ? '' : ' Status code ${httpResponse!.statusCode}.';
-      responseModel.message = 'Failed to get user info.$statusCode';
+      responseModel.message =
+          e is TimeoutException ? 'Your connection has timeout.' : 'Failed to get user info.$statusCode';
       responseModel.success = false;
       responseModel.data = null;
 
