@@ -1,8 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 24-04-2024 06:16 am
 
 import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
-import 'package:portfolio/gen/assets.gen.dart';
 import 'package:portfolio/providers/user_info_provider.dart';
 import 'package:portfolio/services/navigation_service/app_navigator.dart';
 import 'package:portfolio/services/navigation_service/routes.dart';
