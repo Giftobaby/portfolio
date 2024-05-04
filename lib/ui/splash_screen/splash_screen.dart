@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     final provider = context.read<UserInfoProvider>();
     WidgetsBinding.instance.addPostFrameCallback((t) async {
-      await Future.wait([provider.getUserInfo(), Future.delayed(const Duration(seconds: 1))]);
+      await Future.wait([provider.getUserInfo(), Future.delayed(const Duration(milliseconds: 2500))]);
       Globals.splashCompleted = true;
       AppNavigator.navigate(AppRoutes.about);
     });
