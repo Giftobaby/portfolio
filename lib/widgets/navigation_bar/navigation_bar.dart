@@ -52,7 +52,7 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
                 padding: const EdgeInsets.only(left: 46),
                 child: _SideMenuItem(
                   route: AppRoute(name: 'Resume', path: '', goBuilder: (a, b) => const SizedBox()),
-                  onTap: (a) => _openResume(provider.userModel!.resumeUrl),
+                  onTap: (a) => _openResume(provider),
                 ),
               ),
             ],
@@ -67,9 +67,10 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
     setState(() => {});
   }
 
-  Future<void> _openResume(String url) async {
+  Future<void> _openResume(UserInfoProvider provider) async {
     try {
-      await launchUrl(Uri.parse(url));
+      if (provider.userModel == null) throw Exception();
+      await launchUrl(Uri.parse(provider.userModel!.resumeUrl));
     } catch (_) {
       if (mounted) showSnackBar(context, 'Failed to open resume');
     }
