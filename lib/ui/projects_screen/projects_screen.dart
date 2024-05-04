@@ -25,7 +25,7 @@ class ProjectsScreen extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.all(12),
-                  child: Text('What I Did', style: Ts.ts26W600(color: appColors.errorRed)),
+                  child: Text('What I Do', style: Ts.ts26W600(color: appColors.errorRed)),
                 ),
                 Expanded(
                   child: SingleChildScrollView(
