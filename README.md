@@ -4,13 +4,4 @@ Christo's portfolio
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A simple portfolio which is highly customizable and hosted in Github pages(free). All the data shown in this page is fetched through a REST API. If someone want to use this portfolio, they can just clone the git repo and replace this json file with theirs. Also to make any kind of update in the website, there is no need of a new build, just update the details in json file and you are all set.
