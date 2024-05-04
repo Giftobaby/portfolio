@@ -28,8 +28,8 @@ class _SplashScreenState extends State<SplashScreen> {
     super.initState();
   }
 
+  /// The splash is actually done in a native level. Refer index.js
+  /// This is just a dummy splash to call the APIs in its initState.
   @override
-  Widget build(BuildContext context) {
-    return Lottie.asset(Assets.hand);
-  }
+  Widget build(BuildContext context) => const SizedBox();
 }
