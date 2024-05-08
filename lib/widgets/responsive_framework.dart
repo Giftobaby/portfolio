@@ -1,7 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 04-05-2024 10:03 am
 
 import 'package:flutter/material.dart';
-import 'package:portfolio/extensions/context_extensions.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/responsive_utils.dart';
 
@@ -11,18 +10,11 @@ class ResponsiveFrameworkBuilder extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    print(context.percentHeight * 100);
-
     return ResponsiveWrapper.builder(
       child,
       minWidth: 200,
       landscapePlatforms: [ResponsiveTargetPlatform.web],
-      breakpoints: [
-        // if ((context.percentHeight * 100) < 900)
-        // const ResponsiveBreakpoint.autoScale(500, scaleFactor: 0.25)
-        // else
-        ..._points,
-      ],
+      breakpoints: [..._points],
     );
   }
 }
