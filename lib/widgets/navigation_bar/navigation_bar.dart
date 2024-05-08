@@ -2,7 +2,6 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:portfolio/extensions/context_extensions.dart';
 import 'package:portfolio/extensions/string_extensions.dart';
 import 'package:portfolio/providers/user_info_provider.dart';
@@ -34,15 +33,13 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
           padding: const EdgeInsets.symmetric(horizontal: 24),
           child: Row(
             children: [
-              SizedBox(
-                width: context.percentWidth * 25,
-                child: Text(
-                  provider.userModel == null ? '' : '< ${provider.userModel?.profile.name} >',
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: Ts.ts26W600(color: appColors.text1),
-                ),
+              Text(
+                provider.userModel == null ? '' : '< ${provider.userModel?.profile.name} >',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: Ts.ts26W600(color: appColors.text1),
               ),
+              SizedBox(width: context.percentWidth * 1),
               const Spacer(),
               _SideMenuItem(route: AppRoutes.about, onTap: _navigate),
               _SideMenuItem(route: AppRoutes.profile, onTap: _navigate),
@@ -85,7 +82,7 @@ class _SideMenuItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
+      padding: EdgeInsets.only(left: context.percentWidth * 1.5),
       child: HoverButton(
         onTapUp: () => onTap(route),
         builder: (context, state) {
@@ -93,9 +90,8 @@ class _SideMenuItem extends StatelessWidget {
             cursor: state.isHovering ? SystemMouseCursors.click : MouseCursor.defer,
             child: Text(
               route.name.toFirstLetterUpperCase(),
-              style: Ts.ts23W600(
-                color: _getColor(AppNavigator.selectedRoute == route, state.isHovering),
-              ),
+              style: Ts.ts23W600(color: _getColor(AppNavigator.selectedRoute == route, state.isHovering)),
+              maxLines: 1,
             ),
           );
         },
