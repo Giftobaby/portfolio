@@ -46,10 +46,7 @@ class AboutScreen extends StatelessWidget {
                           const SizedBox(height: 80),
                           SizedBox(
                             width: context.percentWidth * 55,
-                            child: Text(
-                              provider.userModel!.about.aboutDescription,
-                              style: Ts.ts26W600(),
-                            ),
+                            child: Text(provider.userModel!.about.aboutDescription, style: Ts.ts26W600()),
                           ),
                         ],
                       ),
