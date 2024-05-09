@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 
+/// [commonThemeData] contains the [ThemeData] used in the app.
 final ThemeData commonThemeData = ThemeData(
   scaffoldBackgroundColor: appColors.bgBlack,
   dialogTheme: const DialogTheme(surfaceTintColor: Colors.transparent),
@@ -12,6 +13,7 @@ final ThemeData commonThemeData = ThemeData(
   scrollbarTheme: ScrollbarThemeData(thumbVisibility: MaterialStateProperty.all(false)),
 );
 
+/// [NoThumbScrollBehavior] is used to set the scroll behaviour.
 class NoThumbScrollBehavior extends ScrollBehavior {
   @override
   Set<PointerDeviceKind> get dragDevices => {

@@ -2,6 +2,7 @@
 
 import 'package:portfolio/models/user_models/url_model.dart';
 
+/// [AboutModel] is just a data model used to parse the json data from the API.
 class AboutModel {
   String greetingMessage;
   String greetingIntro;

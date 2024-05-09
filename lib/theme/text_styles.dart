@@ -5,6 +5,9 @@ import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/theme/colors.dart';
 
+/// [Ts] includes all the possible [TextStyle] which we use in the app. To use any of the [TextStyle] the developer
+/// can just call [Ts.ts10W400] (if they want to use font size 10 and font width 400]). [TextStyle] outside from
+/// the [Ts] class must not be used.
 class Ts {
   static const String _defaultFont = 'Lato';
 

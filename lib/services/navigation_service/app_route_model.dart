@@ -1,10 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
+/// [AppRoute] contains the route information.
+/// [name] is the name for route.
+/// [path] is the exact path route of the application.
+/// [data] is any kind of additional data to be passed to a route.
+/// [routes] is the list of all child routes under a particular route.
+/// [goBuilder] is the builder used if the route is a single route.
+/// [shellBuilder] is the builder used if the route contains [routes].
+/// [generate] function is used to generate the route for the particular [AppRoute].
+/// [_genFullRoute] is used to generate the full route of an [AppRoute].
+/// [getAllChildRouts] returns all the child route path in a application.
 class AppRoute {
   String name;
   String path;
-  String? iconPath;
   Object? data;
 
   List<AppRoute> routes;
@@ -14,7 +23,6 @@ class AppRoute {
   AppRoute({
     required this.path,
     required this.name,
-    this.iconPath,
     this.data,
     this.routes = const [],
     this.shellBuilder,

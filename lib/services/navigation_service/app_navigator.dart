@@ -6,6 +6,10 @@ import 'package:portfolio/ui/base_screens/error_screen.dart';
 import 'package:portfolio/utils/globals.dart';
 import 'app_route_model.dart';
 
+/// [AppNavigator] is used for the Navigation in the application.
+/// [navigate] function is used to navigate to different screens.
+/// [router] is the [GoRouter] instance for the router.
+/// [selectedRoute] is the current selected route of the application.
 class AppNavigator {
   static AppRoute selectedRoute = AppRoutes.splash;
 

@@ -2,8 +2,10 @@
 
 import 'package:flutter/material.dart';
 
+/// [ContextExtensions] contains the extensions for [BuildContext]. This is a handy method to access properties
+/// which depend on [BuildContext].
 extension ContextExtensions on BuildContext {
-  /// Screen Size
+  /// Props related to screen Size
   MediaQueryData get mq => MediaQuery.of(this);
   double get statusBarHeight => mq.padding.top;
   double get screenWidth => mq.size.width;

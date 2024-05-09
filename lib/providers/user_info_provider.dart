@@ -6,12 +6,18 @@ import 'package:portfolio/models/api_models/status_enum.dart';
 import 'package:portfolio/models/user_models/user_model.dart';
 import 'package:portfolio/services/network/user_service.dart';
 
+/// [UserInfoProvider] is the provider used to fetch and manage the state of user data API.
+/// [userModel] is the model class for user data.
+/// [status] indicates the status of calling the user data API.
+/// [getUserInfo] is used to fetch the user data from the API.
+/// [clearProvider] is used to clear the variables in the [UserInfoProvider].
 class UserInfoProvider extends ChangeNotifier {
   UserModel? userModel;
   Status status = Status.none;
   String errorMessage = '';
 
   Future<void> getUserInfo() async {
+    /// Avoid double calls to the API.
     if (status == Status.loading) return;
 
     status = Status.loading;

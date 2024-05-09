@@ -1,5 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 28-04-2024 12:15 pm
 
+/// [UrlModel] is just a data model used to parse the json data from the API.
 class UrlModel {
   String label;
   String icon;

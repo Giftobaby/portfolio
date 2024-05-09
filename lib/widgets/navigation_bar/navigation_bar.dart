@@ -15,6 +15,7 @@ import 'package:portfolio/widgets/snack_bar.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+/// [TopNavigationBar] is the navigation bar in the application.
 class TopNavigationBar extends StatefulWidget {
   const TopNavigationBar({super.key});
 

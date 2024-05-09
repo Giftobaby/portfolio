@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_wrapper.dart';
 import 'package:responsive_framework/utils/responsive_utils.dart';
 
+/// [ResponsiveFrameworkBuilder] is just a wrapper for [ResponsiveWrapper].
+/// [_points] are the responsive breakpoints in the application.
 class ResponsiveFrameworkBuilder extends StatelessWidget {
   final Widget child;
   const ResponsiveFrameworkBuilder({required this.child, super.key});

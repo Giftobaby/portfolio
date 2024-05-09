@@ -7,6 +7,8 @@ import 'package:portfolio/services/navigation_service/routes.dart';
 import 'package:portfolio/utils/globals.dart';
 import 'package:provider/provider.dart';
 
+/// [SplashScreen] is the dummy splash of the application. Any initial steps before building the main screens of the
+/// application can be done here
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 

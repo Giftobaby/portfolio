@@ -2,6 +2,8 @@
 // ignore_for_file: library_private_types_in_public_api
 import 'package:flutter/material.dart';
 
+/// [_AppColors] contains all the colors used in the application. It is made private because it must be initialized in
+/// this file only. Also the instance of this class [appColors] must be used to access all the colors.
 class _AppColors {
   final Color textDefault;
   final Color text1;
@@ -31,6 +33,7 @@ class _AppColors {
   });
 }
 
+/// [appColors] is an instance of [_AppColors]
 final _AppColors appColors = _AppColors(
   textDefault: const Color.fromRGBO(157, 157, 158, 1),
   text1: const Color.fromRGBO(177, 177, 186, 1),

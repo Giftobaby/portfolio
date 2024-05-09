@@ -2,6 +2,7 @@
 
 import 'package:portfolio/models/user_models/url_model.dart';
 
+/// [ProjectModel] is just a data model used to parse the json data from the API.
 class ProjectModel {
   String name;
   String role;

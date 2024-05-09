@@ -1,5 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 29-04-2024 09:27 pm
 
+/// [ContactModel] is just a data model used to parse the json data from the API.
 class ContactModel {
   final String emailId;
   final String phone;

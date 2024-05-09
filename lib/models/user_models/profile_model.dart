@@ -2,6 +2,7 @@
 
 import 'package:portfolio/models/user_models/timeline_model.dart';
 
+/// [ProfileModel] is just a data model used to parse the json data from the API.
 class ProfileModel {
   String name;
   String shortName;

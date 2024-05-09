@@ -6,6 +6,7 @@ import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 import 'package:portfolio/widgets/custom_progress_indicator.dart';
 
+/// [CustomFutureBuilder] is a common widget used for handling all the different states of a [Future] function.
 class CustomFutureBuilder extends StatelessWidget {
   final Status status;
   final Widget Function(BuildContext context) childBuilder;

@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:portfolio/theme/colors.dart';
 
+/// [CustomProgressIndicator] is a common progress indicator used in the application.
 class CustomProgressIndicator extends StatelessWidget {
   final Color? color;
   final double size;

@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 
+/// [showSnackBar] is used to show a simple snack-bar in the application.
 Future<void> showSnackBar(BuildContext context, String text) async {
   ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(

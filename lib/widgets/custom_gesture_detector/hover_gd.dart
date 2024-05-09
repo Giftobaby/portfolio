@@ -5,6 +5,7 @@ import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/widgets/custom_tool_tip.dart';
 import 'hover_button_base.dart';
 
+/// [HoverGD] is used instead of [GestureDetector]. [HoverGD] handles the mouse cursor, tooltip etc.
 class HoverGD extends StatefulWidget {
   final Function()? onTap;
   final Function()? onLongTap;

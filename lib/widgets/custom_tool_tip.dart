@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:portfolio/theme/colors.dart';
 import 'package:portfolio/theme/text_styles.dart';
 
+/// [CustomTooltip] is a common tooltip widget.
 class CustomTooltip extends StatelessWidget {
   final String? message;
   final Widget child;

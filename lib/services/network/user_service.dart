@@ -67,6 +67,9 @@ class UserService {
     }
   }
 
+  /// [_loadLocalFile] is used to load the local json file. This is done to update the json file locally
+  /// while development to make development faster. Later once the json file is all complete it can be pushed
+  /// to server and in production it will be fetched from server.
   static Future<http.Response> _loadLocalFile() async {
     final file = File('E:/portfolio/files/info.json');
     try {

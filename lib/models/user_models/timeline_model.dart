@@ -1,5 +1,6 @@
 // Created by: Christo Pananjickal, Created at: 29-04-2024 09:31 pm
 
+/// [TimelineModel] is just a data model used to parse the json data from the API.
 class TimelineModel {
   final String roleOrDegree;
   final String institutionName;
