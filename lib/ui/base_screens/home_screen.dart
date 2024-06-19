@@ -11,8 +11,6 @@ class MainHomeScreen extends StatefulWidget {
 }
 
 class _MainHomeScreenState extends State<MainHomeScreen> {
-  int selectedPage = 0;
-
   @override
   void initState() {
     super.initState();

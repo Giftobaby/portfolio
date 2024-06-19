@@ -14,6 +14,7 @@ import 'package:portfolio/widgets/custom_gesture_detector/hover_button_base.dart
 import 'package:portfolio/widgets/snack_bar.dart';
 import 'package:provider/provider.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:universal_html/html.dart' as html;
 
 /// [TopNavigationBar] is the navigation bar in the application.
 class TopNavigationBar extends StatefulWidget {
@@ -68,7 +69,7 @@ class _TopNavigationBarState extends State<TopNavigationBar> {
   Future<void> _openResume(UserInfoProvider provider) async {
     try {
       if (provider.userModel == null) throw Exception();
-      await launchUrl(Uri.parse(provider.userModel!.resumeUrl));
+      html.window.open(provider.userModel!.resumeUrl, 'Resume Christo PB');
     } catch (_) {
       if (mounted) showSnackBar(context, 'Failed to open resume');
     }
