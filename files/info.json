@@ -2,7 +2,7 @@
   "about": {
     "greeting_message": "Hii there,",
     "greeting_intro": "I am",
-    "about_description": "I am a software engineer, specializing in cross-platform mobile applications. From sleek UI designs to robust back-end integrations, I specialize in crafting captivating mobile experiences. Let's elevate your software to new heights.",
+    "about_description": "I am a software engineer and full-stack developer proficient in Flutter, .NET, and Python. I design scalable systems for both frontend and backend and mentor junior developers. My expertise ensures robust and efficient solutions.",
     "urls": [
       {
         "label": "Github",
