@@ -352,18 +352,6 @@
           "label": "Docker",
           "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/docker.png"
         }
-      ],
-      "urls": [
-        {
-          "label": "Image 1",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/social_wall1.jpg"
-        },
-        {
-          "label": "Image 2",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/social_wall2.jpg"
-        }
       ]
     },
     {
