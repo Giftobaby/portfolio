@@ -2,19 +2,19 @@
   "about": {
     "greeting_message": "Hii there,",
     "greeting_intro": "I am",
-    "about_description": "I am a software engineer and full-stack developer proficient in Flutter, .NET, and Python. I design scalable systems for both frontend and backend and mentor junior developers. My expertise ensures robust and efficient solutions.",
+    "about_description": "I'm Civil engineer",
     "urls": [
       {
         "label": "Linkedin",
-        "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/linkedin.png",
-        "url": "https://www.linkedin.com/in/christo-baby"
+        "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/linkedin.png",
+        "url": "www.linkedin.com/in/gifto-baby-0abaa218b"
       }
     ]
   },
   "profile": {
     "name": "Gifto Baby",
     "short_name": "Gifto",
-    "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
+    "profile_image": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/profile_image.webp",
     "dob": "1999-01-30T11:34:42.000",
     "my_tag_line": "Science is interesting and love is everything.",
     "what_am_i": "As a software engineer, I have a deep passion for coding and enjoy experimenting with programming techniques. Additionally, I have a keen interest in electronics, often engaging in the development and programming of embedded systems, IoT and circuits as hobby projects. Music holds a special place in my heart, and I am an avid keyboard player who also dabbles in music mixing, mastering, and production. My love for science is immense, and whenever I come across something related to it, I am always eager to learn more. Since childhood, I have been naturally curious and inquisitive about the world around me.",
@@ -25,7 +25,7 @@
         "description": "Mastering Process Quality Engineering",
         "from_date": "2024-05-07T00:00:00.000",
         "to_date": "2024-12-22T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "Flutter Team Lead & Lead Developer",
@@ -33,7 +33,7 @@
         "description": "Design scalable systems and mentoring Flutter developers",
         "from_date": "2022-02-08T00:00:00.000",
         "to_date": "2024-05-01T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Software Engineer",
@@ -41,7 +41,7 @@
         "description": "Developed high quality mobile apps",
         "from_date": "2021-11-01T00:00:00.000",
         "to_date": "2023-10-30T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Research and Development Engineer",
@@ -49,7 +49,7 @@
         "description": "Programming embedded electronic medical devices",
         "from_date": "2021-05-01T00:00:00.000",
         "to_date": "2021-10-31T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Software Developer",
@@ -57,7 +57,7 @@
         "description": "Developed small software for various clients in Flutter and Python",
         "from_date": "2019-11-06T00:00:00.000",
         "to_date": "2021-10-30T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Bachelor of Technology (B.Tech)",
@@ -65,7 +65,7 @@
         "description": "Electronics and Communication Engineering",
         "from_date": "2017-08-01T00:00:00.000",
         "to_date": "2021-04-15T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "Music Programmer and Sound Engineer",
@@ -73,7 +73,7 @@
         "description": "Music orchestration, mixing and mastering",
         "from_date": "2018-11-06T00:00:00.000",
         "to_date": "2021-08-23T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Asst. Sound Engineer & Music Programmer",
@@ -81,7 +81,7 @@
         "description": "Music recording, mixing, mastering and orchestration",
         "from_date": "2018-11-06T00:00:00.000",
         "to_date": "2019-02-17T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/job.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Grade 12",
@@ -89,7 +89,7 @@
         "description": "Learned advanced level maths, science, and computer programming",
         "from_date": "2015-06-13T00:00:00.000",
         "to_date": "2017-05-15T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "Grade 10",
@@ -97,7 +97,7 @@
         "description": "Learned maths, science, history and gained fundamental education",
         "from_date": "2012-05-07T00:00:00.000",
         "to_date": "2015-03-24T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "Upper Primary Education",
@@ -105,7 +105,7 @@
         "description": "Learned basic maths, environment science, and gained general knowledge",
         "from_date": "2009-05-07T00:00:00.000",
         "to_date": "2012-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "Lower Primary Education",
@@ -113,7 +113,7 @@
         "description": "Learned numbers, alphabets and stories",
         "from_date": "2004-05-07T00:00:00.000",
         "to_date": "2009-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "Kindergarten",
@@ -121,7 +121,7 @@
         "description": "Ruled the crayon kingdom, slayed dragons in storybooks, and fought for my \"teeny-weeny eraser\"",
         "from_date": "2002-05-07T00:00:00.000",
         "to_date": "2004-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/studies.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
         "role_or_degree": "I was a tiny tot ;)",
@@ -129,7 +129,7 @@
         "description": "I played with my parents, giggling and cooing in the most adorable way!",
         "from_date": "1999-01-30T00:00:00.000",
         "to_date": "2002-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/baby.png"
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/baby.png"
       }
     ]
   },
@@ -143,38 +143,38 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "Open source",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/open_source.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/open_source.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         },
         {
           "label": "Pub.dev",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         }
       ],
       "urls": [
         {
           "label": "source code",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
-          "url": "https://github.com/CHRISTOPANANJICKAL/fast_cached_network_image"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png",
+          "url": "https://github.com/Giftobaby/fast_cached_network_image"
         },
         {
           "label": "package on pub.dev",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png",
           "url": "https://pub.dev/packages/fast_cached_network_image"
         }
       ]
@@ -188,38 +188,38 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "Open source",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/open_source.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/open_source.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         },
         {
           "label": "Pub.dev",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         }
       ],
       "urls": [
         {
           "label": "source code",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
-          "url": "https://github.com/CHRISTOPANANJICKAL/fast_validator"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png",
+          "url": "https://github.com/Giftobaby/fast_validator"
         },
         {
           "label": "package on pub.dev",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png",
           "url": "https://pub.dev/packages/fast_validator"
         }
       ]
@@ -233,70 +233,70 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         },
         {
           "label": "Python",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/python.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/python.png"
         },
         {
           "label": "Django",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/django.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/django.png"
         },
         {
           "label": "Jira",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/jira.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/jira.png"
         },
         {
           "label": "Bitbucket",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/bitbucket.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/bitbucket.png"
         },
         {
           "label": "Slack",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/slack.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/slack.png"
         },
         {
           "label": "Docker",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/docker.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/docker.png"
         },
         {
           "label": "Nginx",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/nginx.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/nginx.png"
         },
         {
           "label": "Amazon Web Services(AWS)",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/aws.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/aws.png"
         },
         {
           "label": "Firebase",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/firebase.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/firebase.png"
         },
         {
           "label": "Postman",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/postman.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/postman.png"
         },
         {
           "label": "Swagger",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/swagger.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/swagger.png"
         }
       ],
       "urls": [
         {
           "label": "Image",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/biller.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
+          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/biller.png"
         }
       ]
     },
@@ -309,43 +309,43 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": ".NET",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dot_net.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dot_net.png"
         },
         {
           "label": "C#",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/c_sharp.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/c_sharp.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         },
         {
           "label": "Postman",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/postman.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/postman.png"
         },
         {
           "label": "Swagger",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/swagger.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/swagger.png"
         },
         {
           "label": "Amazon Web Services(AWS)",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/aws.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/aws.png"
         },
         {
           "label": "Docker",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/docker.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/docker.png"
         }
       ]
     },
@@ -358,31 +358,31 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         }
       ],
       "urls": [
         {
           "label": "Image 1",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/social_wall1.jpg"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
+          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/social_wall1.jpg"
         },
         {
           "label": "Image 2",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/social_wall2.jpg"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
+          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/social_wall2.jpg"
         }
       ]
     },
@@ -395,23 +395,23 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Python",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/python.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/python.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         }
       ]
     },
@@ -424,23 +424,23 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Python",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/python.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/python.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Apps Script",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/apps_script.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/apps_script.png"
         },
         {
           "label": "Google Sheets",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/sheets.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/sheets.png"
         }
       ]
     },
@@ -453,26 +453,26 @@
       "technologies": [
         {
           "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/flutter.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
         },
         {
           "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/dart.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
         },
         {
           "label": "Git",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/git.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
         },
         {
           "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
         }
       ],
       "urls": [
         {
           "label": "source code",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
-          "url": "https://github.com/CHRISTOPANANJICKAL/portfolio"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png",
+          "url": "https://github.com/Giftobaby/portfolio"
         }
       ]
     },
@@ -485,31 +485,31 @@
       "technologies": [
         {
           "label": "RC Helicopter control circuit",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/circuit.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/circuit.png"
         },
         {
           "label": "Text to speech",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/tts.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/tts.png"
         },
         {
           "label": "Own made circuits",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/circuit.png"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/circuit.png"
         }
       ],
       "urls": [
         {
           "label": "Image",
-          "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/project_images/robot.jpg"
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
+          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/robot.jpg"
         }
       ]
     }
   ],
   "contact": {
-    "email_id": "christopananjickal01@gmail.com",
+    "email_id": "Giftobaby01@gmail.com",
     "phone": "+1 (226) 201-0774",
     "address": "Connaught St, Kitchener, Canada",
     "postal_code": "ON N2C 1B2"
   },
-  "resume_url": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/christo_pb_resume.pdf"
+  "resume_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/christo_pb_resume.pdf"
 }
