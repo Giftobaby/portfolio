@@ -2,7 +2,7 @@
   "about": {
     "greeting_message": "Hii there,",
     "greeting_intro": "I am",
-    "about_description": "I’m a Structural Design Estimator with a passion for turning ideas into practical, buildable solutions—specifically in the world of Pre-Engineered Buildings. I enjoy diving into drawings, understanding the design intent, and shaping accurate estimates that help teams move forward with clarity and confidence. For me, it’s not just about numbers—it’s about contributing to smart, well-executed builds that stand the test of time.",
+    "about_description": "I’m a Structural Design Estimator with a passion for turning ideas into practical, buildable solutions—specifically in the world of Pre-Engineered Buildings. For me, it’s not just about numbers—it’s about contributing to smart, well-executed builds that stand the test of time.",
     "urls": [
       {
         "label": "Linkedin",
@@ -79,35 +79,27 @@
   },
   "projects": [
     {
-      "name": "Fast Cached Network Image",
-      "role": "Author and lead developer",
-      "description": "An opensource Flutter package to cache network images fastly, so that an image will be downloaded only once, instead of downloading them again and again. This approach can improve the UX, since the user feels the app is super fast. Unlike the popular CachedNetworkImage(CNI) package, FastCachedNetworkImage offers methods to clear cache after a particular time period, remove a specific image from cache and much more.",
-      "from_date": "2022-09-08T00:00:00.000",
+      "name": "Canadian Metal Buildings Inc.",
+      "role": "Structural Design Estimator",
+      "description": "Utilizing estimating software, create estimates of the likely costs of manpower, materials, and equipment for pre-engineered buildings based on quotes, drawings, and requirements. Analyze the structure and design according to the most modern US and Canadian codes.Make sure that the spreadsheets and related take-off forms/submittals are formatted so that individuals reviewing the data can easily understand them.Gather the necessary supporting documentation and drawings to create project cost estimates using estimating softwares. Communicating effectively with stakeholders, including clients, vendors, and internal teams. Collaborating with project managers and engineers to ensure accurate estimates. Through the use of efficient design methods, lower the structural weight to cut expenses.",
+      "from_date": "2024-05-13T00:00:00.000",
       "to_date": "",
       "technologies": [
         {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
+          "label": "MBS",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/mbs.png"
         },
         {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
+          "label": "Bluebeam",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/bluebeam.png"
         },
         {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
+          "label": "Excel",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/excel.png"
         },
         {
-          "label": "Open source",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/open_source.png"
-        },
-        {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        },
-        {
-          "label": "Pub.dev",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
+          "label": "Google Sheets",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/sheets.png"
         }
       ],
       "urls": [
@@ -124,35 +116,27 @@
       ]
     },
     {
-      "name": "Fast Validator",
-      "role": "Author and lead developer",
-      "description": "An opensource Flutter package to do any kind of validation fastly. Inspired from Django model validations - python. Includes many built-in validators for commonly used validations. Users can even create custom validators and can club them with the built-in validators.",
-      "from_date": "2023-12-11T00:00:00.000",
-      "to_date": "",
+      "name": "CDN Buildings",
+      "role": "Structural Steel Detailer",
+      "description": "Utilizing design output to create engineering, design, and shop drawings from permit drawings using computer-assisted design (CAD) and Advance Steel.Participate in meetings and site visits related to active projects for a construction review.Interpreted engineering drawings, blueprints and knowledge of metal fabrication processes.Make a bill of materials and packing list for the fabrication and logistics divisions.Following the team leader's directions, prepare written reports and structural details.Make necessary changes in the drawings and designs according to the change orders.",
+      "from_date": "2023-06-26T00:00:00.000",
+      "to_date": "2024-04-19T00:00:00.000",
       "technologies": [
         {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
+          "label": "AutoCad",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/autocad.png"
         },
         {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
+          "label": "Revit",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/revit.png"
         },
         {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
+          "label": "Advance Steel",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/advancesteel.png"
         },
         {
-          "label": "Open source",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/open_source.png"
-        },
-        {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        },
-        {
-          "label": "Pub.dev",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
+          "label": "Excel",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/excel.png"
         }
       ],
       "urls": [
@@ -169,71 +153,27 @@
       ]
     },
     {
-      "name": "Caddayn - Biller",
-      "role": "Flutter team lead and lead developer",
-      "description": "An ERP solution containing all basic billing features, oauth2.0, inventory, employee, customer management, ecommerce and much more.",
-      "from_date": "2023-04-05T00:00:00.000",
-      "to_date": "2024-05-01T00:00:00.000",
+      "name": "Capstone Project - Conestoga College",
+      "role": "Project Manager",
+      "description": "The capstone project included the structural steel supply and installation for division-1 of 540 Bingemans center drive. Scope of the project included: Preparation of bid documents and Gant Chart. Preparation of RFQ and Purchase orders for subcontractors. Creating a model in Tekla and Raising RFI's for modeling from given architectural and structural drawings. Designing connections for the structure. Creating erection drawings and anchor bolt plans. Detailing columns and beams in Tekla.",
+      "from_date": "2023-01-05T00:00:00.000",
+      "to_date": "202-04-15T00:00:00.000",
       "technologies": [
         {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
+          "label": "Tekla",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/tekla.png"
         },
         {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
+          "label": "Excel",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/excel.png"
         },
         {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
+          "label": "AutoCad",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/autocad.png"
         },
         {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        },
-        {
-          "label": "Python",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/python.png"
-        },
-        {
-          "label": "Django",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/django.png"
-        },
-        {
-          "label": "Jira",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/jira.png"
-        },
-        {
-          "label": "Bitbucket",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/bitbucket.png"
-        },
-        {
-          "label": "Slack",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/slack.png"
-        },
-        {
-          "label": "Docker",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/docker.png"
-        },
-        {
-          "label": "Nginx",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/nginx.png"
-        },
-        {
-          "label": "Amazon Web Services(AWS)",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/aws.png"
-        },
-        {
-          "label": "Firebase",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/firebase.png"
-        },
-        {
-          "label": "Postman",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/postman.png"
-        },
-        {
-          "label": "Swagger",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/swagger.png"
+          "label": "Revit",
+          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/revit.png"
         }
       ],
       "urls": [
@@ -241,210 +181,6 @@
           "label": "Image",
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
           "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/biller.png"
-        }
-      ]
-    },
-    {
-      "name": "Livable Physiotherapy Application",
-      "role": "Lead full stack developer - freelance",
-      "description": "An application to control a physiotherapy device and keep patient health records. This app will also monitor patient progress in physiotherapy.",
-      "from_date": "2024-06-06T00:00:00.000",
-      "to_date": "2024-09-10T00:00:00.000",
-      "technologies": [
-        {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
-        },
-        {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
-        },
-        {
-          "label": ".NET",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dot_net.png"
-        },
-        {
-          "label": "C#",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/c_sharp.png"
-        },
-        {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
-        },
-        {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        },
-        {
-          "label": "Postman",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/postman.png"
-        },
-        {
-          "label": "Swagger",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/swagger.png"
-        },
-        {
-          "label": "Amazon Web Services(AWS)",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/aws.png"
-        },
-        {
-          "label": "Docker",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/docker.png"
-        }
-      ]
-    },
-    {
-      "name": "Social Wall",
-      "role": "Ideator Frontend developer, done from ATeam Soft Solutions",
-      "description": "An digital LED wall for a Google Developer Groups (2022 TVM, India) meet in which the participants can upload their selfies taken during the meet which will be randomly displayed on an LED wall. This project was done to increase the engagement of participants during the meet.",
-      "from_date": "2022-11-06T00:00:00.000",
-      "to_date": "2022-11-10T00:00:00.000",
-      "technologies": [
-        {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
-        },
-        {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
-        },
-        {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
-        },
-        {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        }
-      ],
-      "urls": [
-        {
-          "label": "Image 1",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/social_wall1.jpg"
-        },
-        {
-          "label": "Image 2",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/social_wall2.jpg"
-        }
-      ]
-    },
-    {
-      "name": "Family Doctor",
-      "role": "Lead Developer - freelance",
-      "description": "A windows application made for a homeopathy doctor in which case sheets of all patients can be saved. The software includes patient management, pharmacy management, local authentication, symptoms to disease prediction, disease to medicine prediction, and many textbooks for reference and studies.",
-      "from_date": "2020-02-06T00:00:00.000",
-      "to_date": "2021-06-08T00:00:00.000",
-      "technologies": [
-        {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
-        },
-        {
-          "label": "Python",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/python.png"
-        },
-        {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
-        },
-        {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
-        },
-        {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        }
-      ]
-    },
-    {
-      "name": "Med-Codes",
-      "role": "Lead Developer - freelance",
-      "description": "A windows application made for a medical coding institution in India. The application contains code to code-description search, keywords to code-description search, authentication, licence keys by which the institution can control the expiry of the application and text books for reference. Google Apps Script and Google sheets is used as the backend for this application(innovative approach), since the client didn't have much to spend on a backend developer and server.",
-      "from_date": "2019-02-25T00:00:00.000",
-      "to_date": "2019-03-04T00:00:00.000",
-      "technologies": [
-        {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
-        },
-        {
-          "label": "Python",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/python.png"
-        },
-        {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
-        },
-        {
-          "label": "Apps Script",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/apps_script.png"
-        },
-        {
-          "label": "Google Sheets",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/sheets.png"
-        }
-      ]
-    },
-    {
-      "name": "My Portfolio",
-      "role": "Lead Developer",
-      "description": "The website which you are reading currently. Highly customizable and hosted in Github pages(free). All the data shown in this page is fetched through a REST API. If someone want to use this portfolio, they can just clone the git repo and replace this json file with theirs. Also to make any kind of update in the website, there is no need of a new build, just update the details in json file and you are all set.",
-      "from_date": "2023-04-23T00:00:00.000",
-      "to_date": "2023-07-23T00:00:00.000",
-      "technologies": [
-        {
-          "label": "Flutter",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/flutter.png"
-        },
-        {
-          "label": "Dart",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png"
-        },
-        {
-          "label": "Git",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/git.png"
-        },
-        {
-          "label": "GitHub",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png"
-        }
-      ],
-      "urls": [
-        {
-          "label": "source code",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png",
-          "url": "https://github.com/Giftobaby/portfolio"
-        }
-      ]
-    },
-    {
-      "name": "Electra",
-      "role": "Ideator and Creator",
-      "description": "A human sized robot which can move and speak spontaneously. The movement is controlled by an RF remote and the speech is made from a text to speech converter. This was made for my school exhibition inauguration. The students can ask question real-time and the reply to the questions will be typed by us (from behind the stage), so the audience will feel like the robot is replying by its own ;)",
-      "from_date": "2017-15-03T00:00:00.000",
-      "to_date": "2019-15-18T00:00:00.000",
-      "technologies": [
-        {
-          "label": "RC Helicopter control circuit",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/circuit.png"
-        },
-        {
-          "label": "Text to speech",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/tts.png"
-        },
-        {
-          "label": "Own made circuits",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/circuit.png"
-        }
-      ],
-      "urls": [
-        {
-          "label": "Image",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/robot.jpg"
         }
       ]
     }
