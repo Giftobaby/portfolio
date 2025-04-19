@@ -81,7 +81,7 @@
     {
       "name": "Canadian Metal Buildings Inc.",
       "role": "Structural Design Estimator",
-      "description": "Utilizing estimating software, create estimates of the likely costs of manpower, materials, and equipment for pre-engineered buildings based on quotes, drawings, and requirements. Analyze the structure and design according to the most modern US and Canadian codes.Make sure that the spreadsheets and related take-off forms/submittals are formatted so that individuals reviewing the data can easily understand them.Gather the necessary supporting documentation and drawings to create project cost estimates using estimating softwares. Communicating effectively with stakeholders, including clients, vendors, and internal teams. Collaborating with project managers and engineers to ensure accurate estimates. Through the use of efficient design methods, lower the structural weight to cut expenses.",
+      "description": "Utilizing estimating software, create estimates of the likely costs of manpower, materials, and equipment for pre-engineered buildings based on quotes, drawings, and requirements. Analyze the structure and design according to the most modern US and Canadian codes. Make sure that the spreadsheets and related take-off forms/submittals are formatted so that individuals reviewing the data can easily understand them. Gather the necessary supporting documentation and drawings to create project cost estimates using estimating softwares. Communicating effectively with stakeholders, including clients, vendors, and internal teams. Collaborating with project managers and engineers to ensure accurate estimates. Through the use of efficient design methods, lower the structural weight to cut expenses.",
       "from_date": "2024-05-13T00:00:00.000",
       "to_date": "",
       "technologies": [
@@ -102,23 +102,12 @@
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/sheets.png"
         }
       ],
-      "urls": [
-        {
-          "label": "source code",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png",
-          "url": "https://github.com/Giftobaby/fast_cached_network_image"
-        },
-        {
-          "label": "package on pub.dev",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png",
-          "url": "https://pub.dev/packages/fast_cached_network_image"
-        }
-      ]
+      "urls": []
     },
     {
       "name": "CDN Buildings",
       "role": "Structural Steel Detailer",
-      "description": "Utilizing design output to create engineering, design, and shop drawings from permit drawings using computer-assisted design (CAD) and Advance Steel.Participate in meetings and site visits related to active projects for a construction review.Interpreted engineering drawings, blueprints and knowledge of metal fabrication processes.Make a bill of materials and packing list for the fabrication and logistics divisions.Following the team leader's directions, prepare written reports and structural details.Make necessary changes in the drawings and designs according to the change orders.",
+      "description": "Utilizing design output to create engineering, design, and shop drawings from permit drawings using computer-assisted design (CAD) and Advance Steel. Participate in meetings and site visits related to active projects for a construction review. Interpreted engineering drawings, blueprints and knowledge of metal fabrication processes. Make a bill of materials and packing list for the fabrication and logistics divisions. Following the team leader's directions, prepare written reports and structural details.Make necessary changes in the drawings and designs according to the change orders.",
       "from_date": "2023-06-26T00:00:00.000",
       "to_date": "2024-04-19T00:00:00.000",
       "technologies": [
@@ -139,18 +128,7 @@
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/excel.png"
         }
       ],
-      "urls": [
-        {
-          "label": "source code",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/github.png",
-          "url": "https://github.com/Giftobaby/fast_validator"
-        },
-        {
-          "label": "package on pub.dev",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/dart.png",
-          "url": "https://pub.dev/packages/fast_validator"
-        }
-      ]
+      "urls": []
     },
     {
       "name": "Capstone Project - Conestoga College",
@@ -176,13 +154,7 @@
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/revit.png"
         }
       ],
-      "urls": [
-        {
-          "label": "Image",
-          "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/image_thumbnail.png",
-          "url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/project_images/biller.png"
-        }
-      ]
+      "urls": []
     }
   ],
   "contact": {
