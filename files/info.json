@@ -5,11 +5,6 @@
     "about_description": "I am a software engineer and full-stack developer proficient in Flutter, .NET, and Python. I design scalable systems for both frontend and backend and mentor junior developers. My expertise ensures robust and efficient solutions.",
     "urls": [
       {
-        "label": "Github",
-        "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/github.png",
-        "url": "https://github.com/CHRISTOPANANJICKAL/"
-      },
-      {
         "label": "Linkedin",
         "icon": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/icons/linkedin.png",
         "url": "https://www.linkedin.com/in/christo-baby"
@@ -17,8 +12,8 @@
     ]
   },
   "profile": {
-    "name": "Christo PB",
-    "short_name": "Christo",
+    "name": "Gifto Baby",
+    "short_name": "Gifto",
     "profile_image": "https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/profile_image.webp",
     "dob": "1999-01-30T11:34:42.000",
     "my_tag_line": "Science is interesting and love is everything.",
