@@ -4,5 +4,5 @@
 class Endpoints {
   /// [userInfo] endpoint to fetch the user info json.
   static Uri userInfo =
-      Uri.parse('https://raw.githubusercontent.com/CHRISTOPANANJICKAL/portfolio/main/files/info.json');
+      Uri.parse('https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/info.json');
 }
