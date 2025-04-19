@@ -2,7 +2,7 @@
   "about": {
     "greeting_message": "Hii there,",
     "greeting_intro": "I am",
-    "about_description": "I'm Civil engineer",
+    "about_description": "I’m a Structural Design Estimator with a passion for turning ideas into practical, buildable solutions—specifically in the world of Pre-Engineered Buildings. I enjoy diving into drawings, understanding the design intent, and shaping accurate estimates that help teams move forward with clarity and confidence. For me, it’s not just about numbers—it’s about contributing to smart, well-executed builds that stand the test of time.",
     "urls": [
       {
         "label": "Linkedin",
@@ -15,80 +15,56 @@
     "name": "Gifto Baby",
     "short_name": "Gifto",
     "profile_image": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/profile_image.webp",
-    "dob": "1999-01-30T11:34:42.000",
-    "my_tag_line": "Science is interesting and love is everything.",
-    "what_am_i": "As a software engineer, I have a deep passion for coding and enjoy experimenting with programming techniques. Additionally, I have a keen interest in electronics, often engaging in the development and programming of embedded systems, IoT and circuits as hobby projects. Music holds a special place in my heart, and I am an avid keyboard player who also dabbles in music mixing, mastering, and production. My love for science is immense, and whenever I come across something related to it, I am always eager to learn more. Since childhood, I have been naturally curious and inquisitive about the world around me.",
+    "dob": "1997-01-06T11:34:42.000",
+    "my_tag_line": "Creating Design Constructible.",
+    "what_am_i": "As a precision-focused Structural Design Estimator specializing in Pre-Engineered Buildings (PEBs), I bring a strong understanding of steel structures, connection detailing, and material optimization to every project. I transform design concepts into accurate, cost-effective estimates that support efficient planning, seamless execution, and value-driven solutions across industrial, commercial, and institutional PEB developments.",
     "timeline": [
       {
-        "role_or_degree": "Graduate",
-        "institution_name": "Conestoga College, Kitchner, Ontario, Canada",
-        "description": "Mastering Process Quality Engineering",
-        "from_date": "2024-05-07T00:00:00.000",
-        "to_date": "2024-12-22T00:00:00.000",
+        "role_or_degree": "Structural Design Estimator",
+        "institution_name": "Canadian Metal Buildings, Stoney Creek, Ontario, Canada",
+        "description": "Prepares accurate cost estimates by developing preliminary designs for Pre-Engineered Buildings (PEBs).",
+        "from_date": "2024-05-13T00:00:00.000",
+        "to_date": "",
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
+      },
+      {
+        "role_or_degree": "Structural Steel Detailer",
+        "institution_name": "CDN Buildings, Delhi, Ontario, Canada",
+        "description": "Translates structural designs into precise shop drawings for fabrication and erection of steel components.",
+        "from_date": "2023-06-26T00:00:00.000",
+        "to_date": "2024-04-19T00:00:00.000",
+        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
+      },
+      {
+        "role_or_degree": "Structural Steel Management and Detailing",
+        "institution_name": "Conestoga College, Cambridge, Ontario, Canada",
+        "description": "Equipped with the skills and knowledge necessary for the Estimation, detailing, supply, fabrication, and installation of steel structures, as well as the ability to manage and coordinate projects.",
+        "from_date": "2022-01-10T00:00:00.000",
+        "to_date": "2023-04-26T00:00:00.00",
         "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
-        "role_or_degree": "Flutter Team Lead & Lead Developer",
-        "institution_name": "Caddayn",
-        "description": "Design scalable systems and mentoring Flutter developers",
-        "from_date": "2022-02-08T00:00:00.000",
-        "to_date": "2024-05-01T00:00:00.000",
+        "role_or_degree": "Programmer Analyst",
+        "institution_name": "Cognizant Technology Solutions",
+        "description": "Designs, develops, and analyzes software solutions to meet business needs.",
+        "from_date": "2020-08-31T00:00:00.000",
+        "to_date": "2021-12-03T00:00:00.000",
         "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
-        "role_or_degree": "Software Engineer",
-        "institution_name": "ATeam Soft Solutions",
-        "description": "Developed high quality mobile apps",
-        "from_date": "2021-11-01T00:00:00.000",
-        "to_date": "2023-10-30T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
-      },
-      {
-        "role_or_degree": "Research and Development Engineer",
-        "institution_name": "IBIS Medicals",
-        "description": "Programming embedded electronic medical devices",
-        "from_date": "2021-05-01T00:00:00.000",
-        "to_date": "2021-10-31T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
-      },
-      {
-        "role_or_degree": "Software Developer",
-        "institution_name": "Freelance",
-        "description": "Developed small software for various clients in Flutter and Python",
-        "from_date": "2019-11-06T00:00:00.000",
-        "to_date": "2021-10-30T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
-      },
-      {
-        "role_or_degree": "Bachelor of Technology (B.Tech)",
-        "institution_name": "Sahrdaya College of Engineering & Technology, Thrissur, Kerala, India",
-        "description": "Electronics and Communication Engineering",
-        "from_date": "2017-08-01T00:00:00.000",
-        "to_date": "2021-04-15T00:00:00.00",
+        "role_or_degree": "Bachelor's Degree, Civil Engineering",
+        "institution_name": "APJ Abdul Kalam Technological University (KTU), Thiruvananthapuram",
+        "description": "A comprehensive program focused on the design, construction, and maintenance of infrastructure projects, including buildings, roads, bridges, and water systems. It combines engineering principles with practical skills in structural analysis, materials, geotechnics, and project management.",
+        "from_date": "2016-07-01T00:00:00.000",
+        "to_date": "2020-09-01T00:00:00.000",
         "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
-      },
-      {
-        "role_or_degree": "Music Programmer and Sound Engineer",
-        "institution_name": "Freelance - KKC Music Workshop, Chalakudy",
-        "description": "Music orchestration, mixing and mastering",
-        "from_date": "2018-11-06T00:00:00.000",
-        "to_date": "2021-08-23T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
-      },
-      {
-        "role_or_degree": "Asst. Sound Engineer & Music Programmer",
-        "institution_name": "Tunes Audio Studio, Chalakudy",
-        "description": "Music recording, mixing, mastering and orchestration",
-        "from_date": "2018-11-06T00:00:00.000",
-        "to_date": "2019-02-17T00:00:00.00",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/job.png"
       },
       {
         "role_or_degree": "Grade 12",
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned advanced level maths, science, and computer programming",
-        "from_date": "2015-06-13T00:00:00.000",
-        "to_date": "2017-05-15T00:00:00.00",
+        "description": "Learned advanced level maths and science",
+        "from_date": "2013-06-13T00:00:00.000",
+        "to_date": "2015-05-15T00:00:00.00",
         "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
       },
       {
@@ -96,40 +72,8 @@
         "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
         "description": "Learned maths, science, history and gained fundamental education",
         "from_date": "2012-05-07T00:00:00.000",
-        "to_date": "2015-03-24T00:00:00.00",
+        "to_date": "2013-03-24T00:00:00.00",
         "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
-      },
-      {
-        "role_or_degree": "Upper Primary Education",
-        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned basic maths, environment science, and gained general knowledge",
-        "from_date": "2009-05-07T00:00:00.000",
-        "to_date": "2012-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
-      },
-      {
-        "role_or_degree": "Lower Primary Education",
-        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Learned numbers, alphabets and stories",
-        "from_date": "2004-05-07T00:00:00.000",
-        "to_date": "2009-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
-      },
-      {
-        "role_or_degree": "Kindergarten",
-        "institution_name": "Carmel HSS Chalakudy, Thrissur, Kerala, India",
-        "description": "Ruled the crayon kingdom, slayed dragons in storybooks, and fought for my \"teeny-weeny eraser\"",
-        "from_date": "2002-05-07T00:00:00.000",
-        "to_date": "2004-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/studies.png"
-      },
-      {
-        "role_or_degree": "I was a tiny tot ;)",
-        "institution_name": "My Little Sweet Home",
-        "description": "I played with my parents, giggling and cooing in the most adorable way!",
-        "from_date": "1999-01-30T00:00:00.000",
-        "to_date": "2002-03-07T00:00:00.000",
-        "icon_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/baby.png"
       }
     ]
   },
@@ -506,10 +450,10 @@
     }
   ],
   "contact": {
-    "email_id": "Giftobaby01@gmail.com",
-    "phone": "+1 (226) 201-0774",
-    "address": "Connaught St, Kitchener, Canada",
-    "postal_code": "ON N2C 1B2"
+    "email_id": "babygifto73@gmail.com",
+    "phone": "+1 (226) 388-1132",
+    "address": "126 Lower Horining Road, Hamilton, Canada",
+    "postal_code": "ON L8S 3G9"
   },
-  "resume_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/christo_pb_resume.pdf"
+  "resume_url": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/gifto_baby_resume.pdf"
 }
