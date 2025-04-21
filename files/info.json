@@ -84,7 +84,7 @@
       "description": "As a Structural Design Estimator, I am responsible for preparing accurate and cost-effective estimates for pre-engineered buildings by combining structural design expertise with in-depth cost analysis. My role involves creating preliminary designs and drawings, conducting insulation calculations, and analyzing structures in accordance with the latest US and Canadian building codes. I work closely with engineers, project managers, and detailers to ensure the accuracy and feasibility of designs and cost estimates. My tasks include preparing quotes for various building components, including insulated metal panels (IMPs) and different cladding systems, by sourcing competitive quotes from suppliers. I also generate and manage change orders for ongoing projects as design or scope evolves. Utilizing specialized estimating software, I calculate the expected costs for materials, manpower, and equipment, based on architectural drawings and project specifications. I ensure that spreadsheets and take-off forms are clear, well-formatted, and easy to interpret by stakeholders. Throughout the process, I maintain effective communication with clients, vendors, and internal teams, ensuring that all estimates are comprehensive and aligned with project requirements. A key objective of my role is to use efficient structural design methods to reduce structural weight and overall project costs, without compromising quality or safety.",
       "from_date": "2024-05-13T00:00:00.000",
       "to_date": "",
-      "softwares & technologies": [
+      "technologies": [
         {
           "label": "MBS",
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/mbs.png"
@@ -110,7 +110,7 @@
       "description": "In my previous role as a Detailer, I was responsible for creating precise engineering, design, and shop drawings from permit drawings using CAD software and Advance Steel. I worked closely with engineers and project teams to translate design intent into detailed fabrication documents, while also interpreting blueprints and applying my knowledge of metal fabrication processes. I participated in project meetings and site visits to support construction reviews, and prepared structural details and written reports under the direction of team leads. My role also involved generating bills of materials and packing lists for fabrication and logistics, as well as implementing change orders by updating drawings and designs accordingly. Throughout each project, I ensured compliance with industry standards and maintained clear, organized records of all revisions and documentation.",
       "from_date": "2023-06-26T00:00:00.000",
       "to_date": "2024-04-19T00:00:00.000",
-      "softwares & technologies": [
+      "technologies": [
         {
           "label": "AutoCad",
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/autocad.png"
@@ -136,7 +136,7 @@
       "description": "As part of our final-year capstone project, my team was responsible for the structural steel supply and installation for Division 1 of the 540 Bingemans Centre Drive project. The scope included preparing bid documents, developing a Gantt chart for project scheduling, and drafting RFQs and purchase orders for subcontractors. We collaboratively developed a detailed 3D model of the structure using Trimble Tekla, interpreted architectural and structural drawings, and raised RFIs to clarify design details. Our team also designed steel connections and produced accurate assembly drawings, erection drawings, anchor bolt plans, and shop drawings for columns and beams. We utilized tools such as Tekla Structures and Bluebeam to ensure clarity and precision in all deliverables. I'm proud to have been part of a dedicated team whose efforts were recognized as the best project in our batch. Our assembly and erection drawings were acknowledged by both instructors and industry professionals for their quality and impact. Special thanks to Charlie Jenks for his continuous guidance and support throughout the project, and for helping us participate in TECH SHOWCASE – April 2023, an event highlighting the top final-year projects from Conestoga College’s School of Engineering and Technology. This experience not only strengthened my technical and modeling skills but also reinforced the value of effective teamwork and real-world project coordination.",
       "from_date": "2023-01-05T00:00:00.000",
       "to_date": "2023-04-15T00:00:00.000",
-      "softwares & technologies": [
+      "technologies": [
         {
           "label": "Tekla",
           "icon": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/icons/tekla.png"
