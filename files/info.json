@@ -2,7 +2,7 @@
   "about": {
     "greeting_message": "Hii there,",
     "greeting_intro": "I am",
-    "about_description": "I’m a Structural Design Estimator with a passion for turning ideas into practical, buildable solutions—specifically in the world of Pre-Engineered Buildings. For me, it’s not just about numbers—it’s about contributing to smart, well-executed builds that stand the test of time.",
+    "about_description": "I’m an Estimator with a passion for turning ideas into practical, buildable solutions—specifically in the world of Pre-Engineered Buildings. For me, it’s not just about numbers—it’s about contributing to smart, well-executed builds that stand the test of time.",
     "urls": [
       {
         "label": "Linkedin",
@@ -17,10 +17,10 @@
     "profile_image": "https://raw.githubusercontent.com/Giftobaby/portfolio/main/files/profile_image.webp",
     "dob": "1997-01-06T11:34:42.000",
     "my_tag_line": "Creating Design Constructible.",
-    "what_am_i": "As a precision-focused Structural Design Estimator specializing in Pre-Engineered Buildings (PEBs), I bring a strong understanding of steel structures, connection detailing, and material optimization to every project. I transform design concepts into accurate, cost-effective estimates that support efficient planning, seamless execution, and value-driven solutions across industrial, commercial, and institutional PEB developments.",
+    "what_am_i": "As a precision-focused Estimator specializing in Pre-Engineered Buildings (PEBs), I bring a strong understanding of steel structures, connection detailing, and material optimization to every project. I transform design concepts into accurate, cost-effective estimates that support efficient planning, seamless execution, and value-driven solutions across industrial, commercial, and institutional PEB developments.",
     "timeline": [
       {
-        "role_or_degree": "Structural Design Estimator",
+        "role_or_degree": "Estimator",
         "institution_name": "Canadian Metal Buildings, Stoney Creek, Ontario, Canada",
         "description": "Prepares accurate cost estimates by developing preliminary designs for Pre-Engineered Buildings (PEBs).",
         "from_date": "2024-05-13T00:00:00.000",
@@ -80,8 +80,8 @@
   "projects": [
     {
       "name": "Canadian Metal Buildings Inc.",
-      "role": "Structural Design Estimator",
-      "description": "As a Structural Design Estimator, I am responsible for preparing accurate and cost-effective estimates for pre-engineered buildings by combining structural design expertise with in-depth cost analysis. My role involves creating preliminary designs and drawings, conducting insulation calculations, and analyzing structures in accordance with the latest US and Canadian building codes. I work closely with engineers, project managers, and detailers to ensure the accuracy and feasibility of designs and cost estimates. My tasks include preparing quotes for various building components, including insulated metal panels (IMPs) and different cladding systems, by sourcing competitive quotes from suppliers. I also generate and manage change orders for ongoing projects as design or scope evolves. Utilizing specialized estimating software, I calculate the expected costs for materials, manpower, and equipment, based on architectural drawings and project specifications. I ensure that spreadsheets and take-off forms are clear, well-formatted, and easy to interpret by stakeholders. Throughout the process, I maintain effective communication with clients, vendors, and internal teams, ensuring that all estimates are comprehensive and aligned with project requirements. A key objective of my role is to use efficient structural design methods to reduce structural weight and overall project costs, without compromising quality or safety.",
+      "role": "Estimator",
+      "description": "As an Estimator, I am responsible for preparing accurate and cost-effective estimates for pre-engineered buildings by combining structural design expertise with in-depth cost analysis. My role involves creating preliminary designs and drawings, conducting insulation calculations, and analyzing structures in accordance with the latest US and Canadian building codes. I work closely with engineers, project managers, and detailers to ensure the accuracy and feasibility of designs and cost estimates. My tasks include preparing quotes for various building components, including insulated metal panels (IMPs) and different cladding systems, by sourcing competitive quotes from suppliers. I also generate and manage change orders for ongoing projects as design or scope evolves. Utilizing specialized estimating software, I calculate the expected costs for materials, manpower, and equipment, based on architectural drawings and project specifications. I ensure that spreadsheets and take-off forms are clear, well-formatted, and easy to interpret by stakeholders. Throughout the process, I maintain effective communication with clients, vendors, and internal teams, ensuring that all estimates are comprehensive and aligned with project requirements. A key objective of my role is to use efficient structural design methods to reduce structural weight and overall project costs, without compromising quality or safety.",
       "from_date": "2024-05-13T00:00:00.000",
       "to_date": "",
       "technologies": [
